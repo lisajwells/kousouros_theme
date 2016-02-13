@@ -1,0 +1,369 @@
+/*Extra small devices Phones (<768px) 
+Small devices Tablets (≥768px)  
+Medium devices Desktops (≥992px)  
+Large devices Desktops (≥1200px)
+*/
+
+@media screen and (max-width: 694px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 992px) {
+  .container.nav-container,
+  div#search-container {
+    width: 100%;
+  }
+  #process-quotes-carousel,
+  #services-quotes-carousel {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 29px;
+  }
+  #primary {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  #secondary {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.content-header {
+    padding-top: 0;
+  }
+  .carousel {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  div#main-grid { /* full width for tiny */
+    margin: 0 -15px;
+  }
+  .content-header {
+    padding-top: 25px;
+  }
+  .content-header h1 {
+    font-size: 16px;
+    margin-top: 22px;
+  }
+  .searchbox {
+    display: none;
+  }
+}
+
+/***** MODAL MEDIA QUERIES *****/
+@media only screen and (min-width: 768px) {
+  .close {
+    font-size: 80px;
+    margin: 30px -21px -32px 100px;
+    }
+  #contactModal .close {
+    margin: -20px 0px 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  .video .modal-body {
+    height:100px;
+    padding:0;
+    margin: 0;
+  }
+  .modal-content {
+    padding:0;
+    margin: 0;
+  }
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 15px;
+  }
+  .close {
+    margin:-12px 0 0 0;
+  }
+}
+/** end MODAL ***/
+
+/****** ---------------------- ******/
+/* SPLASH MODAL                     */
+/****** ---------------------- ******/
+
+@media only screen and (max-width: 768px) {
+  #splashModal-content {
+    height: 12.5em;
+    padding: 3em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #splashModal-content {
+    height: 12.5em;
+    padding: 3em;
+  }
+}
+@media only screen and (max-width: 660px) {
+  #splashModal-content {
+    height: 11.5em;
+    padding: 3em 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #splashModal-content {
+    height: 11em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #splashModal-content {
+    height: 10em;
+    padding: 3em 1em;
+  }
+}
+
+/****** ---------------------- ******/
+/* HEADER                           */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 694px) {
+  div#site-branding {
+    padding: .5em 1em 1em 0;
+  }
+  div#header-image {
+    width: 100%;
+  }
+}
+
+/****** ---------------------- ******/
+/* HOME PAGE                        */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 992px) { /* bootstrap sm */
+  .home-blurb {
+    font-size: 1.5em;
+  }
+  #home-represents-box h2 {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+  #home-profile h3 {
+    line-height: 1em;
+    margin-bottom: .4em;
+  }
+  #home-profile h3:first-of-type {
+    margin-top: .5em;
+  }
+  #home_press_btn_sm {
+    display: block;
+  }
+  #home_press_btn_lrg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) { /* bootstrap xs */
+  .home-blurb {
+    font-size: 1.3em;
+    left: 4em;
+    right: 4em;
+  }
+  .home-blurb p {
+    margin-bottom: -4px;
+  }
+  #home-testimonials-carousel {
+    margin-bottom: 22px;
+  }
+  #home-testimonials-carousel i {
+    font-size: 112px;
+  }
+  #home-testimonials blockquote {
+    margin: 10px;
+  }
+  #home-testimonials .testimonials-button {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  #home-profile h3 {
+    font-size: 1.6em;
+    margin-bottom: .4em;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  .home-blurb {
+    font-size: 1em;
+    left: 2em;
+    right: 2em;
+    bottom: .5em;
+  }
+  .home-blurb p {
+    margin-bottom: -4px;
+  }
+  #home-slider {
+    padding-bottom: 10px;
+  }
+  #home-represents-box {
+    margin: 0 15px;
+    width: 100%;
+    left: -15px;
+  }
+}
+
+/****** ---------------------- ******/
+/* PROFILES                         */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 500px) { 
+  .associates_loop .col-xs-4 {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 450px) { 
+  .associates_loop h3 {
+    margin-top: 10px;
+  }
+  .associates_loop .col-xs-4 {
+    width: 45%;
+  }
+  .associates_loop .col-xs-8 {
+    width: 100%;
+  }
+}
+/****** ---------------------- ******/
+/* NOTABLES                         */
+/****** ---------------------- ******/
+
+@media only screen and (max-width: 768px) {
+  #notables-img {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 710px) { 
+  .notables_menu_class, 
+  .notables-content {
+    font-size: 15px;
+  }
+  .notables-content h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  .notables_menu_class {
+    font-size: 14px;
+  }
+  .notables-content {
+  padding: 1.6em;
+  margin-left: 8.3em;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .notables_menu_class {
+    font-size: 12px;
+  }
+  .notables-content h3 {
+    font-size: 13px;
+  }
+  .notables-content {
+    padding: 1em;
+    margin-left: 8em;
+    font-size: 13px;
+  }
+}
+
+/****** ---------------------- ******/
+/* PRESS                            */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 380px) {
+  #youtube-cta {
+    font-size: .7em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .press-subhed:first-of-type {
+    margin-top: 0;
+  }
+  .press-tv-text .press-title {
+    margin-top: 6px;
+  }
+}
+
+/****** ---------------------- ******/
+/* TESTIMONIALS                     */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 540px) {
+  #testimonials-badges {
+    width: 60%;
+    margin-left: 20%;
+    }
+  }
+@media screen and (max-width: 460px) {
+  #testimonials-badges {
+    width: 80%;
+    margin-left: 10%;
+    }
+  }
+@media screen and (max-width: 400px) {
+  div#testimonials-badges-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #testimonials-badges {
+    width: 100%;
+    margin-left: 0;
+    }
+}
+
+
+/****** ---------------------- ******/
+/* FOOTER                           */
+/****** ---------------------- ******/
+
+@media screen and (max-width: 992px) { /* bootstrap sm */
+ div#contact-footer {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 768px) { /* bootstrap xs */
+  div#contact-footer, 
+  div#social-footer {
+    font-size: .8em;
+    margin-top: 2em;
+    text-align: center;
+  }
+}
+
+/* to override theme centering nav at this size */
+@media (max-width: 640px) {
+  .footer-nav-menu {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 540px) { 
+  ul#menu-footer-menu {
+    display: none;
+  }
+  div#contact-footer {
+    margin-top: 0;
+  }
+  div#contact-footer,
+  div#social-footer {
+    width: 100%;
+    position: static;
+  }
+}
