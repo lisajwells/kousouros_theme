@@ -256,6 +256,9 @@ Large devices Desktops (≥1200px)
   .notables-content h3 {
     font-size: 16px;
   }
+  .page-template-page-notables h3.page-subtitle {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 500px) { 

@@ -1097,7 +1097,7 @@ p.process1 strong {
     margin-bottom: 4px;
 }
 
-.page-template-page-notables h3.page-subtitle span {
+.page-template-page-notables h3.page-subtitle span { /* not in use; page content won't save it */
     font-weight: 500;
 }
 
