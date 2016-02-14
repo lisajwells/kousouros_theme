@@ -1089,6 +1089,18 @@ p.process1 strong {
   text-transform: uppercase;
 }
 
+.page-template-page-notables h3.page-subtitle {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.page-template-page-notables h3.page-subtitle span {
+    font-weight: 500;
+}
+
 div.explanation {
   font-style: italic;
   font-weight: 400;
@@ -1098,6 +1110,10 @@ div.explanation {
 */
 div.explanation:nth-child(2) {
   margin-top: 0;
+}
+
+#notables-menu {
+  margin-top: 1px;
 }
 
 .notables_menu_class {
