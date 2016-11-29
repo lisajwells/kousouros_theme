@@ -14,8 +14,8 @@
                         <div class="col-md-5">
                             <figure class="video" id="home-represents-group">
                                 <?php $video_id = get_field( 'home_represents_video_id' ); ?>
-                                <a href="#" data-toggle="modal" data-theVideo="http://www.youtube.com/embed/<?php echo $video_id?>">
-                                <img class="youtube" rel="<?php echo $video_id?>" src="http://img.youtube.com/vi/<?php echo $video_id?>/mqdefault.jpg" /></a>
+                                <a href="#" data-toggle="modal" data-theVideo="https://www.youtube.com/embed/<?php echo $video_id?>">
+                                <img class="youtube" alt="video of James Kousouros" rel="<?php echo $video_id?>" src="https://img.youtube.com/vi/<?php echo $video_id?>/mqdefault.jpg" /></a>
                             </figure>
                         </div>
                         <div class="col-md-7">

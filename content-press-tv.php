@@ -3,8 +3,8 @@
 
 		<div class="col-md-6 col-sm-6 press-tv-video video">
 			<?php $video_id = get_field( 'press_video_id' ); ?>
-			<a href="#" data-toggle="modal" data-theVideo="http://www.youtube.com/embed/<?php echo $video_id?>">
-			<img class="youtube" rel="<?php echo $video_id?>" src="http://img.youtube.com/vi/<?php echo $video_id?>/mqdefault.jpg" /></a>
+			<a href="#" data-toggle="modal" data-theVideo="https://www.youtube.com/embed/<?php echo $video_id?>">
+			<img class="youtube" alt="video" rel="<?php echo $video_id?>" src="https://img.youtube.com/vi/<?php echo $video_id?>/mqdefault.jpg" /></a>
 		</div><!-- press-tv-video -->
 
 		<div class="col-md-6 col-sm-6 press-tv-text">

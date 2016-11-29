@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1">
-                        <img id="home-profile-img" src="<?php echo content_url(); ?>/uploads/2015/06/HomeProfile.jpg">
+                        <img id="home-profile-img" alt="James Kousouros" src="<?php echo content_url(); ?>/uploads/2015/06/HomeProfile.jpg">
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <h3>You have many choices...make the right one.</h3>
