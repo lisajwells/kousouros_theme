@@ -3,8 +3,6 @@
 Template Name: Notables
 */
 
-/*this is just a note to test git repo */
-
 get_header(); ?>
 
 <a name="notables_top"></a><?php get_template_part( 'content', 'header' ); ?>

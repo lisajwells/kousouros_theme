@@ -38,8 +38,8 @@ See readme.txt file for license information on components used in this theme.
   background-color: #34495e;
   color: #fff;
 }
-.content-header h1, 
-.content-header h2, 
+.content-header h1,
+.content-header h2,
 .content-header h3 {
   color: #fff;
 }
@@ -54,8 +54,8 @@ See readme.txt file for license information on components used in this theme.
   background-color: #2f2f2f;
   color: white;
 }
-.sidebar-footer h1, 
-.sidebar-footer h2, 
+.sidebar-footer h1,
+.sidebar-footer h2,
 .sidebar-footer h3 {
   color: #fff;
 }
@@ -70,8 +70,8 @@ See readme.txt file for license information on components used in this theme.
   /*color: #95a5a6;*/
   color: #f2f2f2;
 }
-.sidebar-footer a:hover:not(.btn), 
-.sidebar-footer a:focus:not(.btn), 
+.sidebar-footer a:hover:not(.btn),
+.sidebar-footer a:focus:not(.btn),
 .footer-nav-menu a:hover:not(.btn),
 .footer-nav-menu a:focus:not(.btn) {
   /*color: #c0392b;*/
@@ -138,19 +138,19 @@ darkmidnightblue: 14343a;
 darkblue: 8caab4;
 darkerblue: 6d93a0;
 darkgray: 7c9eaa (was 859ca7);
-yellow: d9ce4d; 
+yellow: d9ce4d;
 */
-/****** I changed this color in the parent css. 
-Because it was all in the bootstrap css and everything and I couldn't copy every rule. 
+/****** I changed this color in the parent css.
+Because it was all in the bootstrap css and everything and I couldn't copy every rule.
 So shoot me. #1abc9c to #8caab4 *****/
 
 /* Enqueued: 'Roboto', 'Roboto Condensed' */
 /* Roboto Weights: [100 thin], 300 light, 400 normal, 500 medium, 700 bold, [900 ultra-bold]; */
 /* Roboto Condensed Weights: [400],700,[300]; */
 
-/*Extra small devices Phones (<768px) 
-Small devices Tablets (≥768px)  
-Medium devices Desktops (≥992px)  
+/*Extra small devices Phones (<768px)
+Small devices Tablets (≥768px)
+Medium devices Desktops (≥992px)
 Large devices Desktops (≥1200px)
 */
 
@@ -182,11 +182,11 @@ strong {
   text-align: center;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   color: #000;
@@ -248,7 +248,7 @@ iframe {
 }
 
 .yellowfont {
-  color: #d9ce4d; 
+  color: #d9ce4d;
 }
 
 /************/
@@ -261,7 +261,7 @@ iframe {
     height:45px;
     float:right;
     overflow:hidden;
-    
+
     -webkit-transition: width 0.3s;
             transition: width 0.3s;
 }
@@ -453,7 +453,7 @@ div.textwidget blockquote footer {
 /****** ---------------------- ******/
 /* adjusting color from theme-flat.css --- reassigning our colors to their names */
 
-.darkmidnightblue, 
+.darkmidnightblue,
 .bg-darkmidnightblue {
   background-color: #14343a;
   color: #fff;
@@ -469,7 +469,7 @@ div.textwidget blockquote footer {
 .color-darkblue {
   color: #8caab4;
 }
-.darkgray, 
+.darkgray,
 .bg-darkgray {
   background-color: #7C9EAA;
 }
@@ -479,7 +479,7 @@ div.textwidget blockquote footer {
 .bg-darkgray h2 {
   color: #fff;
 }
-.lightgreen, 
+.lightgreen,
 .bg-lightgreen {
     background-color: #8caab4;
   color: #fff;
@@ -493,11 +493,11 @@ input[type="submit"] {
     background-color: #8caab4;
     border-color: #8caab4;
 }
-button:hover, 
+button:hover,
 button:focus,
-html input[type="button"]:hover, 
+html input[type="button"]:hover,
 html input[type="button"]:focus,
-input[type="submit"]:hover, 
+input[type="submit"]:hover,
 input[type="submit"]:focus {
     background-color: #6d93a0;
     border-color: #6d93a0;
@@ -506,25 +506,25 @@ input[type="submit"]:focus {
   background-color: #8caab4;
   color: #fff;
 }
-.white button.btn.btn-hollow, 
-.white .btn.btn-hollow, 
-.bg-white button.btn.btn-hollow, 
-.bg-white .btn.btn-hollow, 
-.offwhite button.btn.btn-hollow, 
-.offwhite .btn.btn-hollow, 
-.bg-offwhite button.btn.btn-hollow, 
-.bg-offwhite .btn.btn-hollow, 
-.lightgray button.btn.btn-hollow, 
-.lightgray .btn.btn-hollow, 
-.bg-lightgray button.btn.btn-hollow, 
-.bg-lightgray .btn.btn-hollow, 
-.gray button.btn.btn-hollow, 
-.gray .btn.btn-hollow, 
-.bg-gray button.btn.btn-hollow, 
-.bg-gray .btn.btn-hollow, 
-.darkgray button.btn.btn-hollow, 
+.white button.btn.btn-hollow,
+.white .btn.btn-hollow,
+.bg-white button.btn.btn-hollow,
+.bg-white .btn.btn-hollow,
+.offwhite button.btn.btn-hollow,
+.offwhite .btn.btn-hollow,
+.bg-offwhite button.btn.btn-hollow,
+.bg-offwhite .btn.btn-hollow,
+.lightgray button.btn.btn-hollow,
+.lightgray .btn.btn-hollow,
+.bg-lightgray button.btn.btn-hollow,
+.bg-lightgray .btn.btn-hollow,
+.gray button.btn.btn-hollow,
+.gray .btn.btn-hollow,
+.bg-gray button.btn.btn-hollow,
+.bg-gray .btn.btn-hollow,
+.darkgray button.btn.btn-hollow,
 .darkgray .btn.btn-hollow,
-.bg-darkgray button.btn.btn-hollow, 
+.bg-darkgray button.btn.btn-hollow,
 .bg-darkgray .btn.btn-hollow {
   color: #8caab4;
   border: 2px solid #8caab4;
@@ -561,32 +561,32 @@ button.btn.btn-hollow-blackborder {
     text-transform: uppercase;
 }
 
-.btn-hollow:hover, 
+.btn-hollow:hover,
 btn.btn-hollow:hover,
 button.btn.btn-hollow:hover {
     color: #000;
     background-color: #fff;
 }
-.btn-hollow-blackborder:hover, 
+.btn-hollow-blackborder:hover,
 btn.btn-hollow-blackborder:hover,
 button.btn.btn-hollow-blackborder:hover {
     color: #000;
     background-color: #7C9EAA;
 }
-.darkgray button.btn.btn-hollow, 
+.darkgray button.btn.btn-hollow,
 .darkgray .btn.btn-hollow,
-.bg-darkgray button.btn.btn-hollow, 
+.bg-darkgray button.btn.btn-hollow,
 .bg-darkgray .btn.btn-hollow {
   color: #000;
   border: 2px solid #fff;
     background-color: transparent;
 }
-button.btn.btn-hollow:hover, 
+button.btn.btn-hollow:hover,
 .btn.btn-hollow:hover {
     color: #2f2f2f;
     background-color: #fff;
 }
-button.btn.btn-hollow-blackborder:hover, 
+button.btn.btn-hollow-blackborder:hover,
 .btn.btn-hollow-blackborder:hover {
     color: #2f2f2f;
     background-color: #7C9EAA;
@@ -713,7 +713,7 @@ float: right;
   }
 }
 
-/******* make 3 images fade in *****/ 
+/******* make 3 images fade in *****/
 /* make keyframes that tell the start state and the end state */
 @-webkit-keyframes fadeIn { from { opacity:0; filter: alpha(opacity=0); } to { opacity:1; filter: alpha(opacity=100); } }
 /*@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }*/
@@ -748,58 +748,58 @@ float: right;
         animation-delay: 1s;
 }
 
-/******* make 2 quotes fade in up and out *****/ 
+/******* make 2 quotes fade in up and out *****/
 /* make keyframes that tell the start state and the end state */
-@-webkit-keyframes fadeInUpOutUp { 
-  0% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+@-webkit-keyframes fadeInUpOutUp {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: -100px;
-  } 
-  12%, 52% { 
-    opacity: 1; 
-    filter: alpha(opacity=100); 
+  }
+  12%, 52% {
+    opacity: 1;
+    filter: alpha(opacity=100);
     bottom: 1em;
-  } 
-  58% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+  }
+  58% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: 100px;
-  } 
-  100% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+  }
+  100% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: 100px;
-  } 
+  }
 }
-@keyframes fadeInUpOutUp { 
-  0% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+@keyframes fadeInUpOutUp {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: -100px;
-  } 
-  12%, 52% { 
-    opacity: 1; 
-    filter: alpha(opacity=100); 
+  }
+  12%, 52% {
+    opacity: 1;
+    filter: alpha(opacity=100);
     bottom: 1em;
-  } 
-  58% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+  }
+  58% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: 100px;
-  } 
-  100% { 
-    opacity: 0; 
-    filter: alpha(opacity=0); 
+  }
+  100% {
+    opacity: 0;
+    filter: alpha(opacity=0);
     bottom: 100px;
-  } 
+  }
 }
 
 .fadeInUpOutUp {
  opacity:0;
  filter: alpha(opacity=0);  /* make things invisible on start */
-  -webkit-animation:fadeInUpOutUp ease-in infinite; 
-          animation:fadeInUpOutUp ease-in infinite; 
+  -webkit-animation:fadeInUpOutUp ease-in infinite;
+          animation:fadeInUpOutUp ease-in infinite;
   -webkit-animation-duration:26s;
           animation-duration:26s;
 }
@@ -889,7 +889,7 @@ float: right;
   font-size: .9em;
 }
 
-#home-spectrum-row a:hover, 
+#home-spectrum-row a:hover,
 #home-spectrum-row a:focus {
   color: #d9ce4d;
 }
@@ -912,13 +912,13 @@ float: right;
   color: #000;
 }
 
-#home-notable h2 { 
-  color: #fff; 
+#home-notable h2 {
+  color: #fff;
   text-align: center;
 }
 
-#home-notable p { 
-  font-weight: 400; 
+#home-notable p {
+  font-weight: 400;
   text-align: center;
 }
 
@@ -981,9 +981,9 @@ p.process1 strong {
 }
 
 
-.page-id-1404 p a:hover, 
+.page-id-1404 p a:hover,
 .page-id-2626 li a:hover,
-.page-id-1411 p a:hover, 
+.page-id-1411 p a:hover,
 .page-id-1077 p a:hover {
   color: #000;
 }
@@ -1003,7 +1003,7 @@ p.process1 strong {
 }
 
 /* carousel indicators */
-#process-quotes-carousel .carousel-indicators, 
+#process-quotes-carousel .carousel-indicators,
 #services-quotes-carousel .carousel-indicators {
   top: -2em;
 }
@@ -1151,13 +1151,13 @@ div.explanation:nth-child(2) {
   position: absolute;
   top: 470px;
   font-weight: 400;
-  text-align: center; 
+  text-align: center;
   width: 50px;
 }
 #back-to-top-notables-fixed.affix {
   position: fixed;
   font-weight: 400;
-  text-align: center; 
+  text-align: center;
   top: 620px;
   width: 50px;
 }
@@ -1323,7 +1323,7 @@ blockquote.testimonial-entry strong {
 #testimonials-badges {
   border: 1px solid #000;
   font-size: .8em;
-  padding: 18px 18px 3px 18px;  
+  padding: 18px 18px 3px 18px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -1470,6 +1470,13 @@ div#social-footer {
   margin-bottom: 0;
   margin-top: 11px;
   line-height: 1.3em;
+}
+
+#linaweb {
+  text-transform: none;
+}
+#linaweb a:hover {
+  color: #fff;
 }
 
 div.social-icon {

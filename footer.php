@@ -10,17 +10,17 @@
 
 	<?php // Start the footer area ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		
+
 	<?php // Footer "sidebar" widget area (1 to 4 columns supported)
 	get_sidebar( 'footer' );
 	?>
 
 	<?php // Check for footer navbar (optional)
 
-	global $xsbf_theme_options; 
-	$nav_menu = null; 
+	global $xsbf_theme_options;
+	$nav_menu = null;
 	if ( function_exists('has_nav_menu') AND has_nav_menu( 'footer' ) ) {
-		$nav_menu = wp_nav_menu( 
+		$nav_menu = wp_nav_menu(
 			array( 'theme_location' => 'footer',
 			'container_div' 		=> 'div', //'nav' or 'div'
 			'container_class' 		=> '', //class for <nav> or <div>
@@ -29,9 +29,9 @@
 			'fallback_cb'			=> '',
 			'echo'					=> false, // we'll output the menu later
 			'depth'					=> 1,
-			) 
+			)
 		);
-		
+
 	// If not, default one
 	} elseif ( $xsbf_theme_options['sample_footer_menu'] ) {
 			$nav_menu = '
@@ -54,7 +54,7 @@
 
 	<?php // Check for site credits (can be overriden in a child theme)
 	$theme = wp_get_theme();
-	$site_credits = sprintf( __( '&copy; %1$s %2$s. Theme by %3$s.', 'flat-bootstrap' ), 
+	$site_credits = sprintf( __( '&copy; %1$s %2$s. Theme by %3$s.', 'flat-bootstrap' ),
 		date ( 'Y' ),
 		'<a href="' . esc_url( home_url( '/' ) ) . '" rel="home">' . get_bloginfo( 'name' ) . '</a>',
 		'<a href="' . $theme->get( 'ThemeURI' ) . '" rel="profile" target="_blank">' . $theme->get( 'Author' ) . '</a>'
@@ -63,7 +63,7 @@
  	?>
 
 	<?php // If either footer nav or site credits, display them
-	if ( $nav_menu OR $site_credits ) : ?>	  
+	if ( $nav_menu OR $site_credits ) : ?>
 		<div class="after-footer">
 			<div class="container">
 				<div id="back-to-top"><a class="smoothscroll" href="#page"><span class="fa fa-angle-double-up">&nbsp;</span></a>
@@ -103,9 +103,10 @@
 								</a>
 							</div>
 						</p>
-		                        
+
 
 						<p>&copy; <?php echo date ( 'Y' ); ?>. All Rights Reserved.</p>
+						<p id="linaweb">Site designed by <a href="http://donnaagajanian.dphoto.com/" target="_blank">Donna Agajanian</a> with <a href="http://lisajaynewells.com" target="_blank">Lisa Wells,</a> developer</p>
 						<p>Attorney advertising. Prior results do not guarantee a similar outcome.</p>
 					</div><!-- social-footer -->
 
@@ -114,7 +115,7 @@
 			</div><!-- .container -->
 		</div><!-- .after-footer -->
 	<?php endif; ?>
-		
+
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
