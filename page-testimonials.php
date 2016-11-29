@@ -9,7 +9,7 @@ get_header(); ?>
 
 <div class="container">
     <div id="main-grid" class="row">
-<!--         <div id="contain-fixed-thing" class="col-md-2" >            
+<!--         <div id="contain-fixed-thing" class="col-md-2" >
             <div id="back-to-top-testimonials" data-spy="affix">
                 <a class="smoothscroll" href="#testimonials_top">to top&nbsp;<span class="fa fa-angle-double-up">&nbsp;</span></a>
             </div>
@@ -24,15 +24,15 @@ get_header(); ?>
                     <!-- add id of page id and class of .testimonial_loop -->
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'testimonial_loop' ); ?>>
                         <div class="entry-content">
-                        <?php 
+                        <?php
 
                             $testimonial_query = new WP_Query( 'category_name=testimonials');
 
                             if ( $testimonial_query->have_posts() ) : while ( $testimonial_query->have_posts() ) : $testimonial_query->the_post(); ?>
                                 <blockquote class="testimonial-entry"><a id="testimonial-<?php the_ID(); ?>"></a><?php the_content(); ?>
                                 <footer><?php  the_title();  ?></footer></blockquote>
-                            <?php endwhile; 
-                                wp_reset_postdata(); 
+                            <?php endwhile;
+                                wp_reset_postdata();
                             else :
                                 get_template_part( 'no-results' );
                             endif; ?>
@@ -61,7 +61,7 @@ get_header(); ?>
 
                                 <div class="row">
                                     <div class="testimonial-badge col-xs-6" id="testimonial_avvo_badge">
-                                            <a rel="me" target="_blank" href="http://www.avvo.com/attorneys/10016-ny-james-kousouros-868249.html?cm_mmc=Avvo-_-Avvo_Badge-_-Micro-_-868249"><img alt="Avvo - Rate your Lawyer. Get Free Legal Advice." src="http://www.avvo.com/assets/microbadge.png" /></a>
+                                            <a rel="me" target="_blank" href="https://www.avvo.com/attorneys/10016-ny-james-kousouros-868249.html?cm_mmc=Avvo-_-Avvo_Badge-_-Micro-_-868249"><img alt="Avvo - Rate your Lawyer. Get Free Legal Advice." src="https://www.avvo.com/assets/microbadge.png" /></a>
                                     </div><!-- testimonial_avvo_badge -->
                                     <div class="testimonial-badge col-xs-6" id="testimonial_mh_badge">
                                             <a rel="me" target="_blank" href="http://www.martindale.com/James-Kousouros/429638-lawyer.htm?view=cr"><img src="<?php echo content_url(); ?>/uploads/2015/06/HomePageMHIcon200.png"></a>
