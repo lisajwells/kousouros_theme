@@ -51,7 +51,7 @@ get_header(); ?>
 <!-- Large devices Desktops (≥1200px) -->
 <!-- */ -->
                     <div class="row" id="testimonials-badges-wrapper">
-                        <div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-4" id="testimonials-badges">
+                        <div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3" id="testimonials-badges">
                             <aside>
                                 <div class="row">
                                     <div id="testimonials-badges-txt">
