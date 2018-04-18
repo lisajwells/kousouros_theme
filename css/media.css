@@ -59,7 +59,7 @@ Large devices Desktops (≥1200px)
   }
 
   #home-logos {
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
   }
 
 }
