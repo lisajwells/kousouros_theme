@@ -1,6 +1,6 @@
-/*Extra small devices Phones (<768px) 
-Small devices Tablets (≥768px)  
-Medium devices Desktops (≥992px)  
+/*Extra small devices Phones (<768px)
+Small devices Tablets (≥768px)
+Medium devices Desktops (≥992px)
 Large devices Desktops (≥1200px)
 */
 
@@ -43,7 +43,7 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   div#main-grid { /* full width for tiny */
     margin: 0 -15px;
   }
@@ -57,7 +57,14 @@ Large devices Desktops (≥1200px)
   .searchbox {
     display: none;
   }
+
+  #home-logos {
+    /*flex-wrap: wrap;*/
+  }
+
 }
+
+
 
 /***** MODAL MEDIA QUERIES *****/
 @media only screen and (min-width: 768px) {
@@ -198,7 +205,7 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   .home-blurb {
     font-size: 1em;
     left: 2em;
@@ -222,12 +229,12 @@ Large devices Desktops (≥1200px)
 /* PROFILES                         */
 /****** ---------------------- ******/
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   .associates_loop .col-xs-4 {
     padding-right: 0;
   }
 }
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
   .associates_loop h3 {
     margin-top: 10px;
   }
@@ -248,8 +255,8 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 710px) { 
-  .notables_menu_class, 
+@media screen and (max-width: 710px) {
+  .notables_menu_class,
   .notables-content {
     font-size: 15px;
   }
@@ -261,7 +268,7 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   .notables_menu_class {
     font-size: 14px;
   }
@@ -271,7 +278,7 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 400px) {
   .notables_menu_class {
     font-size: 12px;
   }
@@ -342,7 +349,7 @@ Large devices Desktops (≥1200px)
   }
 }
 @media screen and (max-width: 768px) { /* bootstrap xs */
-  div#contact-footer, 
+  div#contact-footer,
   div#social-footer {
     font-size: .8em;
     margin-top: 2em;
@@ -357,7 +364,7 @@ Large devices Desktops (≥1200px)
   }
 }
 
-@media screen and (max-width: 540px) { 
+@media screen and (max-width: 540px) {
   ul#menu-footer-menu {
     display: none;
   }

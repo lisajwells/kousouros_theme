@@ -993,6 +993,19 @@ float: right;
 #home-badges {
   margin-bottom: -2em;
 }
+
+#home-logos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /*flex-wrap: wrap;*/
+}
+
+#home-logos a {
+  margin: 1em;
+}
+
+
 /*#home-mh-img {*/
   /*width: 200px;*/
 /*  overflow: hidden;
