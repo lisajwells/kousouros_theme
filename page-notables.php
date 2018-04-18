@@ -24,19 +24,38 @@ get_header(); ?>
                                 </div>
 
                                 <div class="notables-content">
-                                    <?php  
-                                    $whitecollar_query    = new WP_Query( 'category_name=white-collar-general'); 
-                                    $healthcare_query     = new WP_Query( 'category_name=healthcare-and-pharmaceutical'); 
-                                    $homicide_query       = new WP_Query( 'category_name=homicide'); 
-                                    $racketeering_query   = new WP_Query( 'category_name=racketeering'); 
-                                    $bribery_query        = new WP_Query( 'category_name=bribery'); 
-                                    $narcotics_query      = new WP_Query( 'category_name=narcotics'); 
-                                    $miscellaneous_query  = new WP_Query( 'category_name=miscellaneous-notables'); 
-                                    $appeals_query        = new WP_Query( 'category_name=appeals'); 
-                                    $extradition_query    = new WP_Query( 'category_name=extradition'); 
+                                    <?php
+                                    $whitecollar_query    = new WP_Query( 'category_name=white-collar-general');
+                                    $healthcare_query     = new WP_Query( 'category_name=healthcare-and-pharmaceutical');
+                                    $homicide_query       = new WP_Query( 'category_name=homicide');
+                                    $racketeering_query   = new WP_Query( 'category_name=racketeering');
+                                    $bribery_query        = new WP_Query( 'category_name=bribery');
+                                    $narcotics_query      = new WP_Query( 'category_name=narcotics');
+                                    $miscellaneous_query  = new WP_Query( 'category_name=miscellaneous-notables');
+                                    $appeals_query        = new WP_Query( 'category_name=appeals');
+                                    $extradition_query    = new WP_Query( 'category_name=extradition');
                                     ?>
 
-                                    <?php if ( is_page( 'white-collar-general' )) {  // White Collar has one category  
+                                    <?php if ( is_page( 'notable-cases' )) {  // Introduction
+                                        if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                                            <?php if ( has_tag( 'explanation-notables' )) { ?>
+                                                <div class="explanation">
+                                                    <?php the_content(); ?>
+                                                </div>
+                                            <?php } else {
+                                                the_content();
+                                            } ?>
+
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata();
+                                        else : ?>
+                                            <?php get_template_part( 'no-results' ) ?>
+                                        <?php endif; // end the loop
+
+                                    }?><!-- is_page -->
+
+                                    <?php if ( is_page( 'white-collar-general' )) {  // White Collar has one category
                                         if ( $whitecollar_query->have_posts() ) : while ( $whitecollar_query->have_posts() ) : $whitecollar_query->the_post(); ?>
 
                                             <h3><a id="notable-<?php the_ID(); ?>"></a><?php  the_title();  ?></h3>
@@ -45,12 +64,12 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
 
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; // end the loop
@@ -58,7 +77,7 @@ get_header(); ?>
                                     }?><!-- is_page -->
 
 
-                                    <?php if ( is_page( 'white-collar-healthcare-pharmaceutical' )) {  // Healthcare has one category  
+                                    <?php if ( is_page( 'white-collar-healthcare-pharmaceutical' )) {  // Healthcare has one category
                                         if ( $healthcare_query->have_posts() ) : while ( $healthcare_query->have_posts() ) : $healthcare_query->the_post(); ?>
 
                                             <h3><a id="notable-<?php the_ID(); ?>"></a><?php  the_title();  ?></h3>
@@ -67,19 +86,19 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                             </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
 
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; // end the loop
 
                                     }?><!-- is_page -->
 
-                                    <?php if ( is_page( 'homicide' )) { // Homicide has one category   
+                                    <?php if ( is_page( 'homicide' )) { // Homicide has one category
                                         if ( $homicide_query->have_posts() ) : while ( $homicide_query->have_posts() ) : $homicide_query->the_post(); ?>
 
                                             <h3><a id="notable-<?php the_ID(); ?>"></a><?php  the_title();  ?></h3>
@@ -88,12 +107,12 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
 
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; // end the loop
@@ -113,11 +132,11 @@ get_header(); ?>
                                                     <div class="explanation">
                                                         <?php the_content(); ?>
                                                     </div>
-                                                <?php } else { 
-                                                    the_content(); 
+                                                <?php } else {
+                                                    the_content();
                                                 } ?>
                                             <?php endwhile; ?>
-                                            <?php wp_reset_postdata(); 
+                                            <?php wp_reset_postdata();
                                             else : ?>
                                                 <?php get_template_part( 'no-results' ) ?>
                                             <?php endif; ?><!-- // end the loop -->
@@ -132,18 +151,18 @@ get_header(); ?>
                                                     <div class="explanation">
                                                         <?php the_content(); ?>
                                                     </div>
-                                                <?php } else { 
-                                                    the_content(); 
+                                                <?php } else {
+                                                    the_content();
                                                 } ?>
                                             <?php endwhile; ?>
-                                            <?php wp_reset_postdata(); 
+                                            <?php wp_reset_postdata();
                                             else : ?>
                                                 <?php get_template_part( 'no-results' ) ?>
                                             <?php endif; // end the loop
 
                                     }?><!-- is_page -->
 
-                                    <?php if ( is_page( 'narcotics' )) { // narcotics has one category   
+                                    <?php if ( is_page( 'narcotics' )) { // narcotics has one category
                                         if ( $narcotics_query->have_posts() ) : while ( $narcotics_query->have_posts() ) : $narcotics_query->the_post(); ?>
 
                                             <h3><a id="notable-<?php the_ID(); ?>"></a><?php  the_title();  ?></h3>
@@ -152,12 +171,12 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
 
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; // end the loop
@@ -177,12 +196,12 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
 
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; ?><!-- // end the loop -->
@@ -197,11 +216,11 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; ?><!-- // end the loop -->
@@ -216,15 +235,15 @@ get_header(); ?>
                                                 <div class="explanation">
                                                     <?php the_content(); ?>
                                                 </div>
-                                            <?php } else { 
-                                                the_content(); 
+                                            <?php } else {
+                                                the_content();
                                             } ?>
                                         <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); 
+                                        <?php wp_reset_postdata();
                                         else : ?>
                                             <?php get_template_part( 'no-results' ) ?>
                                         <?php endif; // end the loop
-                                        
+
                                     }?><!-- is_page -->
 
                 					<div id="back-to-top-notables">
