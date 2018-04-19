@@ -1406,6 +1406,10 @@ div.testimonial-badge {
   flex-basis: 50%;
 }
 
+div.testimonial-badge img {
+  max-width: 140px;
+}
+
 div#testimonial_avvo_badge {
   /*width: 120px;*/
 /*  margin-right: 0;
