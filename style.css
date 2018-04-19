@@ -1256,12 +1256,18 @@ div.explanation:nth-child(2) {
   margin-top: 5px;
 }
 .press-tv-text p.press-content a,
-a.press-pdf, a.notables-pdf, a.notables-link,
+a.press-pdf,
+a.notables-pdf,
+a.notables-link,
+a.testimonial-avvo-link,
 .press-subhed a {
   color: #6d93a0;
 }
 .press-tv-text p.press-content a:hover,
-a.press-pdf:hover, a.notables-pdf:hover, a.notables-link:hover,
+a.press-pdf:hover,
+a.notables-pdf:hover,
+a.notables-link:hover,
+a.testimonial-avvo-link:hover,
 .press-subhed a:hover {
   color: #000;
 }
