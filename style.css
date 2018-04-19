@@ -1386,28 +1386,39 @@ blockquote.testimonial-entry strong {
   margin: 0;
 }
 
+#testimonials-badges-txt {
+  text-align: center;
+}
+
 .row.testimonial-badges {
     display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 
 div.testimonial-badge {
-  display: inline-block;
-  margin: 0 0 3px 0;
-  padding: 0;
+  flex-basis: 50%;
 }
+
 div#testimonial_avvo_badge {
   /*width: 120px;*/
-  margin-right: 0;
+/*  margin-right: 0;
   padding: 0 20px 0 0;
   float: left;
-}
+*/}
+
 #testimonial_avvo_badge img {
-  width: 105px;
+  /*width: 105px;*/
   /*max-width: 120px;*/
+  display: block;
+  width: 90%;
+  padding-top: 7%;
 }
 #testimonial_mh_badge img {
-  width: 127px;
+  /*width: 127px;*/
   /*max-width: 127px;*/
+  display: block;
+  width: 90%;
 }
 
 

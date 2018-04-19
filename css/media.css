@@ -314,7 +314,7 @@ Large devices Desktops (≥1200px)
 /* TESTIMONIALS                     */
 /****** ---------------------- ******/
 
-@media screen and (max-width: 540px) {
+/*@media screen and (max-width: 540px) {
   #testimonials-badges {
     width: 60%;
     margin-left: 20%;
@@ -325,19 +325,20 @@ Large devices Desktops (≥1200px)
     width: 80%;
     margin-left: 10%;
     }
-  }
+  }*/
 @media screen and (max-width: 400px) {
-  div#testimonials-badges-wrapper {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
   #testimonials-badges {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/*  #testimonials-badges {
     width: 100%;
     margin-left: 0;
     }
 }
-
+*/
 
 /****** ---------------------- ******/
 /* FOOTER                           */
