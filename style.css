@@ -863,6 +863,11 @@ float: right;
   font-size: 112px;
   margin-top: 43px;
 }
+
+#home-testimonials-carousel i.fa-angle-left {
+  margin-left: 0.15em;
+}
+
 #home-testimonials-carousel a:hover {
   color: white;
 }
@@ -883,7 +888,11 @@ float: right;
 }
 
 #home-testimonials {
-  padding-bottom: 3em;
+  padding: 0;
+}
+
+.home-testimonials-hed-carousel h2 {
+  padding-top: 1em;
 }
 
 #home-testimonials blockquote {
