@@ -919,12 +919,12 @@ float: right;
 }
 
 #home-spectrum-row p,
-#home-recent-row p {
+#home-recent-row a {
   color: #fff;
   margin-bottom: 0;
 }
 
-#home-recent-row p .recent-arrow {
+#home-recent-row a .recent-arrow {
   font-weight: 700;
 }
 
@@ -936,7 +936,9 @@ float: right;
 }
 
 #home-spectrum-row a:hover,
-#home-spectrum-row a:focus {
+#home-spectrum-row a:focus,
+#home-recent-row a:hover,
+#home-recent-row a:focus {
   color: #d9ce4d;
 }
 
