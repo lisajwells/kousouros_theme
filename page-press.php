@@ -23,7 +23,6 @@ get_header(); ?>
 
 					<div class="row">
 						<div class="col-md-12 press-subhed">
-							<h3 id="print-subhed">Print</h3>
 							<p class="intro-graph">These articles relate to cases Mr. Kousouros has handled or is currently handling, as well as articles for which he was sought out as an expert in criminal law.</p>
 						</div>
 					</div><!-- row -->
@@ -115,7 +114,6 @@ get_header(); ?>
 
 					<div class="row"><!-- Here starts the TV section -->
 						<div class="col-md-12 press-subhed">
-							<h3 id="tv-subhed">Cable and Network Appearances </h3>
 						</div>
 					</div>
 
