@@ -984,7 +984,7 @@ float: right;
 }
 
 #home-notable a:hover {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 #home-notable a.btn.btn-hollow:hover {
