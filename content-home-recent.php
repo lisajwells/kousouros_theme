@@ -1,29 +1,26 @@
 <!-- /* Most of this content is generated through Custom Fields added through Home Page edit. */ -->
 
 <!-- HOME SPECTRUM SECTION (formerly known as Home Consultation -->
-<div class="section bg-darkgray center" id="home-spectrum"><!-- home spectrum -->
+<div class="section bg-darkgray center" id="home-recent"><!-- home recent -->
     <div class="container">
-        <div class="row" id="home-spectrum-row">
+        <div class="row" id="home-recent-row">
 
-            <div class="col-md-3 home-spectrum">
-                <?php the_field('home_spectrum_text_1'); ?>
-                <a href="<?php the_field('home_spectrum_link_1'); ?>">Firm Overview</a>
+            <div class="col-md-3 home-recent-heading">
+                <h3>Recent Developments</h3>
             </div>
 
-            <div class="col-md-3 home-spectrum">
-                <?php the_field('home_spectrum_text_2'); ?>
-                <a href="<?php the_field('home_spectrum_link_2'); ?>">Services Provided</a>
+            <div class="col-md-3 home-recent">
+                <a href="<?php the_field('home_recent_link_1'); ?>"><?php the_field('home_recent_text_1'); ?></a>
             </div>
 
-            <div class="col-md-3 home-spectrum">
-                <?php the_field('home_spectrum_text_3'); ?>
-                <a href="<?php the_field('home_spectrum_link_3'); ?>">Profile</a>
+            <div class="col-md-3 home-recent">
+                <a href="<?php the_field('home_recent_link_2'); ?>"><?php the_field('home_recent_text_2'); ?></a>
             </div>
 
-            <div class="col-md-3 home-spectrum">
-                <?php the_field('home_spectrum_text_4'); ?>
-                <a href="<?php the_field('home_spectrum_link_4'); ?>">The Process</a>
+            <div class="col-md-3 home-recent">
+                <a href="<?php the_field('home_recent_link_3'); ?>"><?php the_field('home_recent_text_3'); ?></a>
             </div>
+
 
         </div><!-- row -->
     </div><!-- container -->
