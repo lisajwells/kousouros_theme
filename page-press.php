@@ -11,6 +11,8 @@ get_header(); ?>
 
 <?php get_template_part( 'content', 'header' ); ?>
 
+<?php if ( is_page('press') ) {?>
+
 <div class="container">
 	<div id="main-grid" class="row">
 		<div id="primary" class="content-area-wide col-md-12">
@@ -27,88 +29,20 @@ get_header(); ?>
 						</div>
 					</div><!-- row -->
 
-					<div class="row"><!-- Here starts the 2 Press-Print columns -->
+					<div class="row"><!-- Here starts the Press-Print column -->
 						<div class="entry-content-press1 col-md-5 col-md-offset-1"><!-- -->
 							<?php
-								$press_print1_query = new WP_Query( 'category_name=daily-news');
-								$press_print2_query = new WP_Query( 'category_name=new-york-times');
-								$press_print6_query = new WP_Query( 'category_name=reuters');
-								$press_print5_query = new WP_Query( 'category_name=times-of-smithtown');
+								$press_print1_query = new WP_Query( 'category_name=print');
 
 							?>
-							<figure class="press-logo">
-								<img class="press-logo" id="dailynews-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-dailynews.png">
-							</figure>
 							<?php while ( $press_print1_query->have_posts() ) : $press_print1_query->the_post(); ?>
 								<!-- get content-press-print.php template part -->
 								<?php get_template_part( 'content', 'press-print' ); ?>
 							<?php endwhile; // end of the loop. ?>
             				<?php wp_reset_postdata(); ?>
 
-							<figure class="press-logo border-above">
-								<img class="press-logo" id="nyt-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-nytimes.png">
-							</figure>
-
-							<?php while ( $press_print2_query->have_posts() ) : $press_print2_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
-              				<?php wp_reset_postdata(); ?>
-
-
-							<figure class="press-logo border-above">
-								<img class="press-logo" id="reuters-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-reuters.png">
-							</figure>
-
-							<?php while ( $press_print6_query->have_posts() ) : $press_print6_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
-              				<?php wp_reset_postdata(); ?>
-
-							<figure class="press-logo border-above">
-								<img class="press-logo" id="timessmithtown-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-thetimes.png">
-							</figure>
-
-							<?php while ( $press_print5_query->have_posts() ) : $press_print5_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
- 				            <?php wp_reset_postdata(); ?>
-
 						</div><!-- .entry-content -->
 
-						<div class="entry-content-press2 col-md-5"><!-- -->
-							<?php
-								$press_print3_query = new WP_Query( 'category_name=journal-news');
-								$press_print4_query = new WP_Query( 'category_name=newsday');
-								$press_print5_query = new WP_Query( 'category_name=miscellaneous-print');
-							?>
-
-							<figure class="press-logo">
-								<img class="press-logo" id="journalnews-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-journalnews.png">
-							</figure>
-
-							<?php while ( $press_print3_query->have_posts() ) : $press_print3_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
-          				    <?php wp_reset_postdata(); ?>
-
-							<figure class="press-logo border-above">
-								<img class="press-logo" id="newsday-logo" src="<?php echo get_site_url(); ?>/wp-content/images/press-newsday.png">
-							</figure>
-
-							<?php while ( $press_print4_query->have_posts() ) : $press_print4_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
-            				<?php wp_reset_postdata(); ?>
-
-							<figure class="press-logo border-above">
-							</figure>
-
-							<?php while ( $press_print5_query->have_posts() ) : $press_print5_query->the_post(); ?>
-								<?php get_template_part( 'content', 'press-print' ); ?>
-							<?php endwhile; // end of the loop. ?>
-            				<?php wp_reset_postdata(); ?>
-
-						</div><!-- .entry-content -->
 					</div><!-- .row Print -->
 
 
@@ -170,5 +104,6 @@ get_header(); ?>
 		</div><!-- #primary -->
 	</div><!-- .row -->
 </div><!-- .container -->
+<?php } ?>
 
 <?php get_footer(); ?>
