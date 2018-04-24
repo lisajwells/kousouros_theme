@@ -1,6 +1,6 @@
 <!-- /* Most of this content is generated through Custom Fields added through Home Page edit. */ -->
 
-<!-- HOME SPECTRUM SECTION (formerly known as Home Consultation -->
+<!-- HOME RECENT SECTION -->
 <div class="section bg-darkgray center" id="home-recent"><!-- home recent -->
     <div class="container">
         <div class="row" id="home-recent-row">
@@ -24,4 +24,4 @@
 
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- section home-consulation -->
+</div><!-- section home-recent -->

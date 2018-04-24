@@ -918,9 +918,14 @@ float: right;
   color: #000;
 }
 
-#home-spectrum-row p {
+#home-spectrum-row p,
+#home-recent-row p {
   color: #fff;
   margin-bottom: 0;
+}
+
+#home-recent-row p .recent-arrow {
+  font-weight: 700;
 }
 
 #home-spectrum-row a {
@@ -972,7 +977,7 @@ float: right;
 }
 
 #home-profile {
-  background-color: #efefef;
+  background-color: #7C9EAA;
 }
 
 #home-profile h3 {
