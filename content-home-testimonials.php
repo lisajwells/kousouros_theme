@@ -4,10 +4,10 @@
 <div class="section bg-darkgray" id="home-testimonials"><!-- home testimonials -->
     <div class="container">
 
-        <h2><?php the_field('home_testimonials_title'); ?></h2>    
-        
+        <h2><?php the_field('home_testimonials_title'); ?></h2>
+
         <div class="row"><!-- carousel row -->
-            <?php $testimonial_query = new WP_Query( 'tag=excerpt-home&posts_per_page=9');  ?>
+            <?php $testimonial_query = new WP_Query( 'tag=excerpt-home&posts_per_page=8');  ?>
 
             <!-- THE TEXT CAROUSEL -->
             <div id="home-testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -16,6 +16,7 @@
                     <li data-target="#home-testimonials-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#home-testimonials-carousel" data-slide-to="1"></li>
                     <li data-target="#home-testimonials-carousel" data-slide-to="2"></li>
+                    <li data-target="#home-testimonials-carousel" data-slide-to="3"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -25,7 +26,7 @@
                         <?php $counter = 0; ?>
                         <?php while ( $testimonial_query->have_posts() ) : $testimonial_query->the_post(); ?>
                             <?php $counter++; ?>
-                            <?php if($counter < 4) : ?>
+                            <?php if($counter < 3) : ?>
                                 <div class="col-md-4">
                                     <blockquote><?php the_excerpt(); ?><footer><?php  the_title();  ?></footer></blockquote>
                                 </div><!-- col-4 -->
@@ -37,26 +38,38 @@
                         <?php $counter = 0; ?>
                         <?php while ( $testimonial_query->have_posts() ) : $testimonial_query->the_post(); ?>
                             <?php $counter++; ?>
-                            <?php if($counter > 3 && $counter < 7) : ?>
+                            <?php if($counter > 2 && $counter < 5) : ?>
                                 <div class="col-md-4">
                                     <blockquote><?php the_excerpt(); ?><footer><?php  the_title();  ?></footer></blockquote>
                                 </div><!-- col-4 -->
                             <?php endif; ?>
                         <?php endwhile; // end of the loop. ?>
                     </div>
-                      
+
                     <div class="item">
                         <?php $counter = 0; ?>
                         <?php while ( $testimonial_query->have_posts() ) : $testimonial_query->the_post(); ?>
                             <?php $counter++; ?>
-                            <?php if($counter > 6 && $counter < 10) : ?>
+                            <?php if($counter > 4 && $counter < 7) : ?>
                                 <div class="col-md-4">
                                     <blockquote><?php the_excerpt(); ?><footer><?php  the_title();  ?></footer></blockquote>
                                 </div><!-- col-4 -->
                             <?php endif; ?>
                         <?php endwhile; // end of the loop. ?>
                     </div>
-                  
+
+                    <div class="item">
+                        <?php $counter = 0; ?>
+                        <?php while ( $testimonial_query->have_posts() ) : $testimonial_query->the_post(); ?>
+                            <?php $counter++; ?>
+                            <?php if($counter > 6 && $counter < 9) : ?>
+                                <div class="col-md-4">
+                                    <blockquote><?php the_excerpt(); ?><footer><?php  the_title();  ?></footer></blockquote>
+                                </div><!-- col-4 -->
+                            <?php endif; ?>
+                        <?php endwhile; // end of the loop. ?>
+                    </div>
+
                 <!-- /* Restore original Post Data */ -->
                 <?php  wp_reset_postdata();  ?>
 
