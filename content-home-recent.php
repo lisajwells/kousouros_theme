@@ -6,19 +6,19 @@
         <div class="row" id="home-recent-row">
 
             <div class="col-md-3 home-recent-heading">
-                <h3>Recent Developments</h3>
+                <h2>Recent Developments</h2>
             </div>
 
             <div class="col-md-3 home-recent">
-                <a href="<?php the_field('home_recent_link_1'); ?>"><?php the_field('home_recent_text_1'); ?></a>
+                <p><?php the_field('home_recent_text_1'); ?></p>
             </div>
 
             <div class="col-md-3 home-recent">
-                <a href="<?php the_field('home_recent_link_2'); ?>"><?php the_field('home_recent_text_2'); ?></a>
+                <p><?php the_field('home_recent_text_2'); ?></p>
             </div>
 
             <div class="col-md-3 home-recent">
-                <a href="<?php the_field('home_recent_link_3'); ?>"><?php the_field('home_recent_text_3'); ?></a>
+                <p><?php the_field('home_recent_text_3'); ?></p>
             </div>
 
 

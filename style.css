@@ -926,6 +926,8 @@ float: right;
 
 #home-recent-row a .recent-arrow {
   font-weight: 700;
+  font-size: 22px;
+  line-height: 0;
 }
 
 #home-spectrum-row a {
