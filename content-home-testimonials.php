@@ -4,7 +4,7 @@
 <div class="section bg-darkgray" id="home-testimonials"><!-- home testimonials -->
     <div class="container"><div class="row">
 
-        <div class="col-md-4"><img src="http://dev.kousouroslaw.com/wp-content/uploads/2015/06/HomePage_Center.jpg" alt="James Kousouros"></div>
+        <div class="col-md-4"><img src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Center.jpg" alt="James Kousouros"></div>
 
         <div class="col-md-8 home-testimonials-hed-carousel">
 
