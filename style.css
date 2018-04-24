@@ -974,7 +974,7 @@ float: right;
 }
 
 #home-notable h2 {
-  color: #fff;
+  /*color: #fff;*/
   text-align: center;
 }
 
@@ -997,7 +997,7 @@ float: right;
 
 #home-profile h3 {
   font-size: 1.6em;
-  color: #000;
+  color: #fff;
   line-height: 1.2em;
   margin-bottom: 1em;
 }
