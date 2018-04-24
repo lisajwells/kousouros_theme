@@ -27,7 +27,8 @@ get_header(); ?>
         </div>
     </div>
 
-    <p id="specializing" style="text-align: center;"><strong>Specializing in state and federal criminal defense in New York and throughout the country</strong></p>
+    <div class="container"><p id="specializing" style="text-align: center;">The Law Offices of James Kousouros is a criminal defense firm with deep experience in complex litigation. Our professional and business clientele have included doctors, pharmacists, CEOs, designers, members of the financial community, lawyers, and business owners. While our clients face a wide range of serious criminal charges and investigations, they share one thing in common: a life changing battle with a formidable government authority. James Kousouros, the founder and principal of the firm, has over 30 years of experience fighting those battles, and he has won multiple acquittals in state and federal courtrooms in New York and throughout the country. </p></div>
+
 </div>
 
     <div><!-- #primary -->

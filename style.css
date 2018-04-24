@@ -854,7 +854,7 @@ float: right;
 
 #specializing {
   margin-top: 1.5em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #home-testimonials-carousel i {
