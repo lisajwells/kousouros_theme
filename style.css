@@ -949,10 +949,15 @@ float: right;
   margin-bottom: 0;
 }
 
+.home-recent-heading h2 {
+    color: #000;
+}
+
 #home-recent-row a .recent-arrow {
   font-weight: 700;
   font-size: 22px;
   line-height: 0;
+  color: #d9ce4d;
 }
 
 /*#home-spectrum-row a {
