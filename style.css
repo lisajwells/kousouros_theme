@@ -906,12 +906,17 @@ float: right;
   font-style: normal;
 }
 
+.row.testimonials-btn-row {
+    margin-top: 23px;
+    text-align: right;
+}
+
 #home-represents {
   padding-top: 0;
   margin-bottom: -2em;
 }
 #home-represents-box {
-  border: 2px solid;
+  border: 1px solid;
   padding: 1em 1em .5em 1em;
   position: relative;
   top: -2em;
