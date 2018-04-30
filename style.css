@@ -959,6 +959,10 @@ float: right;
   font-size: .9em;
 }
 
+.home-cta-a-white {
+  color: #fff;
+}
+
 .home-cta-a:hover,
 .home-cta-a:focus,
 .home-cta-a:hover,
