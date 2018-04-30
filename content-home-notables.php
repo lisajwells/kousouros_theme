@@ -1,7 +1,7 @@
 <!-- /* Most of this content is generated through Custom Fields added through Home Page edit. */ -->
 
 <!-- HOME NOTABLES SECTION -->
-<div class="section" id="home-notable"><!-- home notable -->
+<div class="section bg-darkgray" id="home-notable"><!-- home notable -->
     <div class="container">
         <div class="row">
 
@@ -16,6 +16,6 @@
             </div><!-- col-6 -->
 
         </div><!-- row -->
-    <p class="center"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/notable-cases/white-collar">Read notable cases</a></p>
+    <p class="center"><a class="home-cta-a home-cta-a-white" href="<?php bloginfo('url'); ?>/notable-cases/white-collar">Read notable cases</a></p>
     </div><!-- container-->
 </div><!-- section home-notable-->

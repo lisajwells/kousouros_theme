@@ -945,12 +945,12 @@ float: right;
 
 #home-spectrum-row p,
 #home-recent-row a {
-  color: #fff;
+  color: #000;
   margin-bottom: 0;
 }
 
 .home-recent-heading h2 {
-    color: #000;
+    /*color: #000;*/
 }
 
 #home-recent-row a .recent-arrow {
@@ -1015,7 +1015,10 @@ float: right;
 }
 
 #home-notable a:hover {
-  /*color: #fff;*/
+  color: #fff;
+}
+#home-notable .home-cta-a-white:hover {
+  color: #d9ce4d;
 }
 
 #home-notable a.btn.btn-hollow:hover {
