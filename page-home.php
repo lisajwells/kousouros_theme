@@ -39,7 +39,7 @@ get_header(); ?>
                 <?php get_template_part( 'content', 'home-represents' ); ?>
                 <?php get_template_part( 'content', 'home-recent' ); ?>
                 <?php get_template_part( 'content', 'home-press' ); ?>
-                <?php get_template_part( 'content', 'home-spectrum' ); ?>
+                <?php //get_template_part( 'content', 'home-spectrum' ); ?>
                 <?php get_template_part( 'content', 'home-notables' ); ?>
                 <?php get_template_part( 'content', 'home-profile' ); ?>
 
