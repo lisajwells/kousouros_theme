@@ -624,6 +624,9 @@ div#header-image {
 #menu-main-menu {
 float: right;
 }
+.menu-item-has-children:hover ul.dropdown-menu {
+    display: block;
+}
 /* pad 14 instead of 15 to fix 10pt window where it was breaking to 2 lines before hamburger */
 .nav>li>a {
   padding: 14px 14px;
