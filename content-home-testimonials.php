@@ -94,7 +94,7 @@
                 <!-- THE TEXT CAROUSEL -->
 
             </div><!-- carousel .row -->
-            <p class="testimonials-button"><a class="btn btn-hollow" href="<?php bloginfo('url'); ?>/testimonials">Read More Testimonials</a></p>
+            <p class="testimonials-button"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/testimonials">Read More Testimonials</a></p>
         </div>
     </div></div><!-- .container -->
 </div><!-- section testimonials

@@ -944,17 +944,25 @@ float: right;
   line-height: 0;
 }
 
-#home-spectrum-row a {
+/*#home-spectrum-row a {
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: .9em;
+}*/
+
+/*used to be rectangular hollow buttons*/
+.home-cta-a {
+  color: #000;
   text-transform: uppercase;
   font-weight: 500;
   font-size: .9em;
 }
 
-#home-spectrum-row a:hover,
-#home-spectrum-row a:focus,
-#home-recent-row a:hover,
-#home-recent-row a:focus {
+.home-cta-a:hover,
+.home-cta-a:focus,
+.home-cta-a:hover,
+.home-cta-a:focus {
   color: #d9ce4d;
 }
 

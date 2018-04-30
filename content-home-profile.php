@@ -12,7 +12,7 @@
                     <div class="col-md-4 col-sm-4">
                         <h3>You have many choices...make the right one.</h3>
                         <h3>Consult with James Kousouros.</h3>
-                        <p style="text-align: left;"><a class="btn btn-hollow main-menu-contact" href="<?php bloginfo('url'); ?>/press-media">CONTACT US FOR A FREE CONSULTATION</a></p>
+                        <p style="text-align: left;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">CONTACT US FOR A FREE CONSULTATION</a></p>
                     </div>
                 </div>
             </div><!-- .container -->
