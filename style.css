@@ -961,8 +961,8 @@ float: right;
 }
 
 #home-press .row {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
 }
 
