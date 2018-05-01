@@ -31,7 +31,7 @@
 
 
         </div><!-- row -->
-            <p id="home_press_cta" style="text-align: center;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">See more press/media</a></p>
+            <p id="home_press_cta" style="text-align: center;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">More press/media</a></p>
 
     </div><!-- container -->
 </div><!-- section home-press -->
