@@ -934,6 +934,11 @@ float: right;
   color: #d9ce4d;
 }
 
+#home-recent-row a:hover .recent-arrow {
+    text-decoration: none;
+    display: inline-block;
+}
+
 /*#home-spectrum-row a {
   color: #fff;
   text-transform: uppercase;
