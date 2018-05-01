@@ -637,7 +637,7 @@ float: right;
 /* HOME PAGE                        */
 /****** ---------------------- ******/
 
-.home-slider-img {
+/*.home-slider-img {
   float: left;
   margin: 0 1% 0 0;
 }
@@ -652,7 +652,7 @@ float: right;
 .home-slider-img:last-of-type {
   margin: 0 0 0 0;
 }
-
+*/
 .row.home-images {
   position: relative;
   overflow: hidden;
