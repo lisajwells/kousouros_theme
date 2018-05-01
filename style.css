@@ -960,6 +960,12 @@ float: right;
   color: #d9ce4d;
 }
 
+#home-press .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /*#home-press figcaption {
   font-size: .8em;
   margin-top: .5em;
@@ -967,12 +973,12 @@ float: right;
 
 #home-press figcaption b {
   font-weight: 500;
-}*/
+}
 
 #home_press_btn_sm {
   display: none;
   margin-top: 1em;
-}
+}*/
 
 #home-notable {
   color: #000;
