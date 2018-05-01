@@ -1319,11 +1319,10 @@ a.testimonial-avvo-link,
 }
 
 a.press-pdf {
-  font-weight: 500;
+  color: #6d93a0;
 }
 a.press-pdf:hover {
-  color: #6d93a0;
-  text-decoration: none;
+  color: #000;
 }
 
 .press-tv-text p.press-content a:hover,
