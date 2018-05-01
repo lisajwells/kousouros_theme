@@ -15,15 +15,16 @@ get_header(); ?>
             <img class="home-slider-img fade-in" id="home-slider-img-1" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_left.jpg">
             <img class="home-slider-img fade-in" id="home-slider-img-2" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Center.jpg">
             <img class="home-slider-img fade-in" id="home-slider-img-3" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Right.jpg">
-        <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
-            <p>Expert. Strategic. Criminal defense.</p>
-        </aside>
-        <aside class="home-blurb fadeInUpOutUp" id="home-blurb-2">
-            <p>Complex litigation for professionals and businesses.</p>
-        </aside>
-        <aside class="home-blurb fadeInUpOutUp" id="home-blurb-3">
-            <p>Excellent results.</p>
-        </aside>
+
+            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
+                <p>Expert. Strategic. Criminal defense.</p>
+            </aside>
+            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-2">
+                <p>Complex litigation for professionals and businesses.</p>
+            </aside>
+            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-3">
+                <p>Excellent results.</p>
+            </aside>
         </div>
     </div>
 
