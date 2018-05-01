@@ -5,9 +5,11 @@
 <?php endif; ?>
 
 <?php if( get_field( 'publication') ): ?>
-    <p class="press-publication"><?php the_field('publication'); ?></p>
+    <p class="press-publication"><?php the_field('publication'); ?>
+        <?php if( get_field( 'download_pdf_file_url') ): ?>
+            <a target="_blank"  class="press-pdf press-print" href="<?php the_field('download_pdf_file_url'); ?>">Download PDF</a>
+        <?php endif; ?>
+
+    </p>
 <?php endif; ?>
 
-<?php if( get_field( 'download_pdf_file_url') ): ?>
-    <a target="_blank"  class="press-pdf press-print" href="<?php the_field('download_pdf_file_url'); ?>">Download PDF</a>
-<?php endif; ?>
