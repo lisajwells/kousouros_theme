@@ -909,15 +909,15 @@ float: right;
     max-width: 235px;
 }
 
-.home-spectrum h3 {
+/*.home-spectrum h3 {
   margin-top: 1em;
 }
 
 #home-spectrum-row div:nth-child(2n+1) h3 {
   color: #000;
 }
-
-#home-spectrum-row p,
+*/
+/*#home-spectrum-row p,*/
 #home-recent-row a {
   color: #000;
   margin-bottom: 0;
