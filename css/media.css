@@ -181,6 +181,13 @@ Large devices Desktops (≥1200px)
     margin-top: 0;
   }
 
+  #home-notables-1 {
+    padding: 0 15px;
+  }
+
+  #home-notables-2 {
+    padding: 15px 15px;
+  }
 
   #home-profile h3 {
     line-height: 1em;
