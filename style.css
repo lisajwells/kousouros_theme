@@ -1027,12 +1027,12 @@ float: right;
 }
 
 #home-profile {
-  background-color: #7C9EAA;
+  background-color: #efefef;
 }
 
 #home-profile h3 {
   font-size: 1.6em;
-  color: #fff;
+  color: #000;
   line-height: 1.2em;
   margin-bottom: 1em;
 }
