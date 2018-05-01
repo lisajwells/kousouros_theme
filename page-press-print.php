@@ -26,7 +26,7 @@ get_header(); ?>
 					</div><!-- row -->
 
 					<div class="row"><!-- Here starts the Press-Print column -->
-						<div class="entry-content-press1 col-md-5 col-md-offset-1"><!-- -->
+						<div class="entry-content-press1 col-md-8 col-md-offset-2"><!-- -->
 							<?php
 								$press_print1_query = new WP_Query( 'category_name=print');
 

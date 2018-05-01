@@ -1334,7 +1334,8 @@ a.testimonial-avvo-link:hover,
   color: #000;
 }
 
-h4 a.press-pdf {
+h4 a.press-pdf,
+h4.press-print {
   color: #14343a;
   text-decoration: none;
 }
@@ -1343,7 +1344,10 @@ h4 a.press-pdf:hover {
   color: #6d93a0;
 }
 
-.press-publication {
+.press-publication,
+.press-pdf {
+    font-size: 15px;
+    line-height: 1.3em;
     margin: 0;
 }
 
