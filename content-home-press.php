@@ -17,8 +17,8 @@
             <div class="col-md-4 home-press-col home-press-col-text">
                 <h2><?php the_field('home_press_title'); ?></h2>
                 <p><?php the_field('home_press_subhed'); ?></p>
-                <p id="home_press_btn_lrg" style="text-align: center;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">See more press/media</a></p>
             </div>
+
 
             <div class="col-md-4 home-press-col home-press-col-video2">
                 <figure class="video" id="home-press-2-group">
@@ -31,6 +31,7 @@
 
 
         </div><!-- row -->
+            <p id="home_press_cta" style="text-align: center;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">See more press/media</a></p>
 
     </div><!-- container -->
 </div><!-- section home-press -->

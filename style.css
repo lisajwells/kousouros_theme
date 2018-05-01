@@ -961,9 +961,17 @@ float: right;
 }
 
 #home-press .row {
-    align-items: center;
+    /*align-items: center;*/
     display: flex;
     justify-content: space-around;
+}
+
+.home-press-col-text {
+  margin-top: -4px;
+}
+
+#home_press_cta {
+  margin-top: -18px;
 }
 
 /*#home-press figcaption {

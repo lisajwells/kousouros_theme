@@ -176,6 +176,11 @@ Large devices Desktops (≥1200px)
     order: -1;
   }
 
+  #home_press_cta {
+    order: 10;
+    margin-top: 0;
+  }
+
 
   #home-profile h3 {
     line-height: 1em;
