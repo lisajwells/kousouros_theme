@@ -960,14 +960,14 @@ float: right;
   color: #d9ce4d;
 }
 
-#home-press figcaption {
+/*#home-press figcaption {
   font-size: .8em;
   margin-top: .5em;
 }
 
 #home-press figcaption b {
   font-weight: 500;
-}
+}*/
 
 #home_press_btn_sm {
   display: none;

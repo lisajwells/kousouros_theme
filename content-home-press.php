@@ -5,7 +5,7 @@
 <div class="section center" id="home-press"><!-- home press -->
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 home-press-col home-press-col-video1">
                 <figure class="video" id="home-press-1-group">
                     <?php $video_id = get_field( 'home_press_video_id_1' ); ?>
                     <a href="#" data-toggle="modal" data-theVideo="https://www.youtube.com/embed/<?php echo $video_id?>">
@@ -14,13 +14,13 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 home-press-col home-press-col-text">
                 <h2><?php the_field('home_press_title'); ?></h2>
                 <p><?php the_field('home_press_subhed'); ?></p>
                 <p id="home_press_btn_lrg" style="text-align: center;"><a class="home-cta-a" href="<?php bloginfo('url'); ?>/press-media">See more press/media</a></p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 home-press-col home-press-col-video2">
                 <figure class="video" id="home-press-2-group">
                     <?php $video_id = get_field( 'home_press_video_id_2' ); ?>
                     <a href="#" data-toggle="modal" data-theVideo="https://www.youtube.com/embed/<?php echo $video_id?>">
