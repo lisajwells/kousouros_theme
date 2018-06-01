@@ -23,7 +23,7 @@ get_header(); ?>
                 <p>Complex litigation for professionals and businesses.</p>
             </aside>
             <aside class="home-blurb fadeInUpOutUp" id="home-blurb-3">
-                <p>Excellent results.</p>
+                <p>Distinguished Reputation. Excellent results.</p>
             </aside>
         </div>
     </div>
