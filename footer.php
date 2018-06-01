@@ -106,7 +106,7 @@
 
 
 						<p>&copy; <?php echo date ( 'Y' ); ?>. All Rights Reserved.</p>
-						<p id="linaweb">Site designed by <a href="http://donnaagajanian.dphoto.com/" target="_blank">Donna Agajanian</a> with <a href="http://lisajaynewells.com" target="_blank">Lisa Wells,</a> developer</p>
+						<p id="linaweb">Site designed by <a href="http://donnaagajanian.dphoto.com/" target="_blank">Donna Agajanian</a> with <a href="https://barkingdogweb.com" target="_blank">Lisa Wells,</a> developer</p>
 						<p>Attorney advertising. Prior results do not guarantee a similar outcome.</p>
 					</div><!-- social-footer -->
 

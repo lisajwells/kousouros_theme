@@ -1085,6 +1085,13 @@ p.process1 strong {
   color: #6d93a0;
 }
 
+.page-id-1404 #linaweb a,
+.page-id-2626 #linaweb a,
+.page-id-1411 #linaweb a,
+.page-id-1077 #linaweb a {
+  color: #000;
+}
+
 .page-id-2626 div.entry-content li a {
   font-weight: 300;
 }
