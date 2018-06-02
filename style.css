@@ -777,17 +777,17 @@ float: right;
  filter: alpha(opacity=0);  /* make things invisible on start */
   -webkit-animation:fadeInUpOutUp ease-in infinite;
           animation:fadeInUpOutUp ease-in infinite;
-  -webkit-animation-duration:24s;
-          animation-duration:24s;
+  -webkit-animation-duration:18s;
+          animation-duration:18s;
 }
 
 .fadeInUpOutUp#home-blurb-2 {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 .fadeInUpOutUp#home-blurb-3 {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 /*@keyframes fadeInUpOutUp {
