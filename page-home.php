@@ -28,7 +28,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="container"><p id="specializing">The Law Offices of James Kousouros is a criminal defense firm with deep experience in complex litigation, as well as all other areas of criminal law. Our professional and business clientele have included doctors, pharmacists, CEOs, designers, members of the financial community, lawyers, and business owners.</p></div>
+    <div class="container"><p id="specializing">For the past thirty years, James Kousouros has dedicated himself exclusively to the field of criminal defense. James and his team have extensive experience in complex criminal litigation, as well as in all other areas of criminal law. Our professional and business clientele have included doctors, pharmacists, CEOs, designers, members of the financial community, lawyers and business owners.</p></div>
 
 </div>
 
