@@ -777,17 +777,17 @@ float: right;
  filter: alpha(opacity=0);  /* make things invisible on start */
   -webkit-animation:fadeInUpOutUp ease-in infinite;
           animation:fadeInUpOutUp ease-in infinite;
-  -webkit-animation-duration:18s;
-          animation-duration:18s;
+  -webkit-animation-duration:12s;
+          animation-duration:12s;
 }
 
 .fadeInUpOutUp#home-blurb-2 {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 .fadeInUpOutUp#home-blurb-3 {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 /*@keyframes fadeInUpOutUp {
@@ -977,6 +977,8 @@ float: right;
 
 #home_press_cta {
   margin-top: -18px;
+  position: relative;
+  z-index: 1000;
 }
 
 /*#home-press figcaption {
