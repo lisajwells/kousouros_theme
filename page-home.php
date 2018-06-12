@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="section" id="home-slider">
     <div class="container" id="home-slider-container">
         <div class="row home-images">
-            <img class="home-slider-img fade-in" id="home-slider-img-1" src="<?php echo content_url(); ?>/uploads/2018/05/JK-7.jpg">
+            <img class="home-slider-img fade-in" id="home-slider-img-1" src="<?php echo content_url(); ?>/uploads/2018/06/Courts.jpg">
             <!-- <img class="home-slider-img fade-in" id="home-slider-img-2" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Center.jpg"> -->
             <!-- <img class="home-slider-img fade-in" id="home-slider-img-3" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Right.jpg"> -->
 
