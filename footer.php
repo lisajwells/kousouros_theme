@@ -82,7 +82,7 @@
 
 					<div id="contact-footer" class="col-md-4 col-sm-5 col-xs-4">
 						<p>260&nbspMadison&nbspAvenue, 22nd&nbspfloor, <br>New&nbspYork, New&nbspYork 10016&#8209;2404</p>
-						<p>Phone 212&#8209;532&#8209;1934 <br>Fax 212&#8209;532&#8209;1939</p>
+						<p>Phone <a href="tel:1-212-532-1934">212&#8209;532&#8209;1934</a> <br>Fax <a href="tel:1-212-532-1939">212&#8209;532&#8209;1939</a></p>
 					</div><!-- contact-footer -->
 
 					<div id="social-footer" class="col-md-4 col-sm-4 col-xs-4">
