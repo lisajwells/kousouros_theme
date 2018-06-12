@@ -697,11 +697,6 @@ float: right;
         animation-delay: 0.5s;
 }
 
-.fade-in#home-slider-img-3 {
--webkit-animation-delay: 1s;
-        animation-delay: 1s;
-}
-
 /******* make 3 quotes fade in up and out *****/
 /* make keyframes that tell the start state and the end state */
 @-webkit-keyframes fadeInUpOutUp {
