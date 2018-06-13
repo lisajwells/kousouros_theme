@@ -28,7 +28,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="container"><p id="specializing">For the past thirty years, James Kousouros has dedicated himself exclusively to the field of criminal defense. James and his team have extensive experience in complex criminal litigation, as well as in all other areas of criminal law. Our professional and business clientele have included doctors, pharmacists, CEOs, designers, members of the financial community, lawyers and business owners.</p></div>
+    <div class="container"><p id="specializing">The Law Offices of James Kousouros is a criminal defense firm with extensive experience in all areas of criminal law, including complex criminal litigation. James Kousouros, the founder and principal of the firm, has over 30 years experience fighting, and winning, life changing battles in state and federal courtrooms in New York and throughout the country. He and his team have represented a wide range of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners.</p></div>
 
 </div>
 
