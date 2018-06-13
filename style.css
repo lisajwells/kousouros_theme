@@ -1294,7 +1294,7 @@ div.explanation:nth-child(2) {
     max-width: 660px;
     margin: 0 auto;
     float: none;
-        padding: 0 15px 15px;
+        /*padding: 0 15px 15px;*/
 }
 
 .entry-content-press1 img,
