@@ -668,11 +668,10 @@ float: right;
     font-size: 2em;
     font-family: 'Roboto Condensed';
     font-weight: 700;
-    height: 1.4em;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
-    top: 50%;
+    top: calc(50% - .5em);
 }
 
 .home-blurb p {
