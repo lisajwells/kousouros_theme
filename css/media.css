@@ -333,7 +333,8 @@ Large devices Desktops (≥1200px)
 @media screen and (max-width: 992px) {
   .entry-content-press1 {
     width: auto;
-    max-width: 720px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
