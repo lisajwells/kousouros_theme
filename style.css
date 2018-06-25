@@ -1249,7 +1249,8 @@ p.process1 strong {
     text-transform: uppercase;
 }
 
-.page-template-page-notables h3.page-subtitle {
+.page-template-page-notables h3.page-subtitle,
+.page-template-page-press-print h3.page-subtitle {
     color: #000;
     font-size: 1.2em;
     font-weight: 300;

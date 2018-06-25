@@ -13,89 +13,100 @@ Large devices Desktops (≥1200px)
 }
 
 @media screen and (max-width: 992px) {
-  .container.nav-container,
-  div#search-container {
-    width: 100%;
-  }
-  #process-quotes-carousel,
-  #services-quotes-carousel {
-    margin-top: 2em;
-  }
+    .container.nav-container,
+    div#search-container {
+        width: 100%;
+    }
+
+    #process-quotes-carousel,
+    #services-quotes-carousel {
+        margin-top: 2em;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  h2 {
-    font-size: 29px;
-  }
-  #primary {
-    padding-top: 10px;
-    padding-bottom: 0;
-  }
-  #secondary {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.content-header {
-    padding-top: 0;
-  }
-  .carousel {
-    margin-top: 2em;
-  }
+    h2 {
+        font-size: 29px;
+    }
+
+    #primary {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #secondary {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    header.content-header {
+        padding-top: 0;
+    }
+
+    .carousel {
+        margin-top: 2em;
+    }
 }
 
 @media screen and (max-width: 500px) {
-  div#main-grid { /* full width for tiny */
-    margin: 0 -15px;
-  }
-  .content-header {
-    padding-top: 25px;
-  }
-  .content-header h1 {
-    font-size: 16px;
-    margin-top: 22px;
-  }
-  .searchbox {
-    display: none;
-  }
+    div#main-grid { /* full width for tiny */
+        margin: 0 -15px;
+    }
 
-  #home-logos {
-    flex-wrap: wrap;
-  }
+    .content-header {
+        padding-top: 25px;
+    }
+
+    .content-header h1 {
+        font-size: 16px;
+        margin-top: 22px;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #home-logos {
+        flex-wrap: wrap;
+    }
 
 }
-
-
 
 /***** MODAL MEDIA QUERIES *****/
 @media only screen and (min-width: 768px) {
-  .close {
-    font-size: 80px;
-    margin: 30px -21px -32px 100px;
+    .close {
+        font-size: 80px;
+        margin: 30px -21px -32px 100px;
     }
-  #contactModal .close {
-    margin: -20px 0px 0px 100px;
-  }
+
+    #contactModal .close {
+        margin: -20px 0px 0px 100px;
+    }
 }
 
 @media only screen and (max-width: 641px) {
-  .video .modal-body {
-    height:100px;
-    padding:0;
-    margin: 0;
-  }
-  .modal-content {
-    padding:0;
-    margin: 0;
-  }
-  .modal-dialog {
-    position: relative;
-    width: auto;
-    margin: 15px;
-  }
-  .close {
-    margin:-12px 0 0 0;
-  }
+    .video .modal-body {
+        height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 15px;
+    }
+
+    .close {
+        margin: -12px 0 0 0;
+    }
 }
+
 /** end MODAL ***/
 
 /****** ---------------------- ******/
@@ -103,35 +114,37 @@ Large devices Desktops (≥1200px)
 /****** ---------------------- ******/
 
 @media only screen and (max-width: 768px) {
-  #splashModal-content {
-    height: 12.5em;
-    padding: 3em;
-  }
+    #splashModal-content {
+        height: 12.5em;
+        padding: 3em;
+    }
 }
+
 @media only screen and (max-width: 768px) {
-  #splashModal-content {
-    height: 12.5em;
-    padding: 3em;
-  }
+    #splashModal-content {
+        height: 12.5em;
+        padding: 3em;
+    }
 }
+
 @media only screen and (max-width: 660px) {
-  #splashModal-content {
-    height: 11.5em;
-    padding: 3em 2em;
-  }
+    #splashModal-content {
+        height: 11.5em;
+        padding: 3em 2em;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-  #splashModal-content {
-    height: 11em;
-  }
+    #splashModal-content {
+        height: 11em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-  #splashModal-content {
-    height: 10em;
-    padding: 3em 1em;
-  }
+    #splashModal-content {
+        height: 10em;
+        padding: 3em 1em;
+    }
 }
 
 /****** ---------------------- ******/
@@ -139,118 +152,133 @@ Large devices Desktops (≥1200px)
 /****** ---------------------- ******/
 
 @media screen and (max-width: 694px) {
-  div#site-branding {
-    padding: .5em 1em 1em 0;
-  }
-  div#header-image {
-    width: 100%;
-  }
+    div#site-branding {
+        padding: .5em 1em 1em 0;
+    }
+
+    div#header-image {
+        width: 100%;
+    }
 }
 
 /****** ---------------------- ******/
 /* HOME PAGE                        */
 /****** ---------------------- ******/
 
-@media screen and (max-width: 992px) { /* bootstrap sm */
-  .home-blurb {
-    font-size: 1.5em;
-  }
-  #home-represents-box h2 {
-    text-align: center;
-    margin-top: .5em;
-    margin-bottom: 0;
-  }
+@media screen and (max-width: 992px) {
+    /* bootstrap sm */
+    .home-blurb {
+        font-size: 1.5em;
+    }
 
-  #home-press .row {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+    #home-represents-box h2 {
+        text-align: center;
+        margin-top: .5em;
+        margin-bottom: 0;
+    }
 
-  .home-press-col {
-    margin: 1em 0;
-  }
+    #home-press .row {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
-  .home-press-col-text {
-    order: -1;
-  }
+    .home-press-col {
+        margin: 1em 0;
+    }
 
-  #home_press_cta {
-    order: 10;
-    margin-top: 0;
-  }
+    .home-press-col-text {
+        order: -1;
+    }
 
-  #home-notables-1 {
-    padding: 0 15px;
-  }
+    #home_press_cta {
+        order: 10;
+        margin-top: 0;
+    }
 
-  #home-notables-2 {
-    padding: 15px 15px;
-  }
+    #home-notables-1 {
+        padding: 0 15px;
+    }
 
-  #home-profile h3 {
-    line-height: 1em;
-    margin-bottom: .4em;
-  }
-  #home-profile h3:first-of-type {
-    margin-top: .5em;
-  }
-/*  #home_press_btn_sm {
-    display: block;
-  }
-  #home_press_btn_lrg {
-    display: none;
-  }
-*/}
+    #home-notables-2 {
+        padding: 15px 15px;
+    }
 
-@media screen and (max-width: 768px) { /* bootstrap xs */
-  .home-blurb {
-    font-size: 1.3em;
-    left: 4em;
-    right: 4em;
-  }
-/*  .home-blurb p {
-    margin-bottom: -4px;
-  }
-*/  #home-testimonials-carousel {
-    margin-bottom: 22px;
-  }
-  #home-testimonials-carousel i {
-    font-size: 112px;
-  }
-  #home-testimonials blockquote {
-    margin: 10px;
-  }
-  #home-testimonials .testimonials-button {
-    text-align: center;
-  }
+    #home-profile h3 {
+        line-height: 1em;
+        margin-bottom: .4em;
+    }
+
+    #home-profile h3:first-of-type {
+        margin-top: .5em;
+    }
+
+    /*  #home_press_btn_sm {
+        display: block;
+      }
+      #home_press_btn_lrg {
+        display: none;
+      }
+    */
+}
+
+@media screen and (max-width: 768px) {
+    /* bootstrap xs */
+    .home-blurb {
+        font-size: 1.3em;
+        left: 4em;
+        right: 4em;
+    }
+
+    /*  .home-blurb p {
+        margin-bottom: -4px;
+      }
+    */
+    #home-testimonials-carousel {
+        margin-bottom: 22px;
+    }
+
+    #home-testimonials-carousel i {
+        font-size: 112px;
+    }
+
+    #home-testimonials blockquote {
+        margin: 10px;
+    }
+
+    #home-testimonials .testimonials-button {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 694px) {
-  #home-profile h3 {
-    font-size: 1.6em;
-    margin-bottom: .4em;
-  }
+    #home-profile h3 {
+        font-size: 1.6em;
+        margin-bottom: .4em;
+    }
 }
 
 @media screen and (max-width: 500px) {
-  .home-blurb {
-    font-size: 1em;
-    left: 2em;
-    right: 2em;
-  }
-/*  .home-blurb p {
-    margin-bottom: -4px;
-  }
-*/  #home-slider {
-    padding-bottom: 10px;
-  }
-  #home-represents-box {
-    margin: 0 15px;
-    width: 100%;
-    left: -15px;
-  }
+    .home-blurb {
+        font-size: 1em;
+        left: 2em;
+        right: 2em;
+    }
+
+    /*  .home-blurb p {
+        margin-bottom: -4px;
+      }
+    */
+    #home-slider {
+        padding-bottom: 10px;
+    }
+
+    #home-represents-box {
+        margin: 0 15px;
+        width: 100%;
+        left: -15px;
+    }
 }
 
 /****** ---------------------- ******/
@@ -258,66 +286,76 @@ Large devices Desktops (≥1200px)
 /****** ---------------------- ******/
 
 @media screen and (max-width: 500px) {
-  .associates_loop .col-xs-4 {
-    padding-right: 0;
-  }
+    .associates_loop .col-xs-4 {
+        padding-right: 0;
+    }
 }
+
 @media screen and (max-width: 450px) {
-  .associates_loop h3 {
-    margin-top: 10px;
-  }
-  .associates_loop .col-xs-4 {
-    width: 45%;
-  }
-  .associates_loop .col-xs-8 {
-    width: 100%;
-  }
+    .associates_loop h3 {
+        margin-top: 10px;
+    }
+
+    .associates_loop .col-xs-4 {
+        width: 45%;
+    }
+
+    .associates_loop .col-xs-8 {
+        width: 100%;
+    }
 }
+
 /****** ---------------------- ******/
 /* NOTABLES                         */
 /****** ---------------------- ******/
 
 @media only screen and (max-width: 768px) {
-  #notables-img {
-    margin-top: 0;
-  }
+    #notables-img {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 710px) {
-  .notables_menu_class,
-  .notables-content {
-    font-size: 15px;
-  }
-  .notables-content h3 {
-    font-size: 16px;
-  }
-  .page-template-page-notables h3.page-subtitle {
-    font-size: 16px;
-  }
+    .notables_menu_class,
+    .notables-content {
+        font-size: 15px;
+    }
+
+    .notables-content h3 {
+        font-size: 16px;
+    }
+
+    .page-template-page-press-print h3.page-subtitle,
+    .page-template-page-notables h3.page-subtitle {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 500px) {
-  .notables_menu_class {
-    font-size: 14px;
-  }
-  .notables-content {
-  padding: 1.6em;
-  margin-left: 8.3em;
-  }
+    .notables_menu_class {
+        font-size: 14px;
+    }
+
+    .notables-content {
+        padding: 1.6em;
+        margin-left: 8.3em;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  .notables_menu_class {
-    font-size: 12px;
-  }
-  .notables-content h3 {
-    font-size: 13px;
-  }
-  .notables-content {
-    padding: 1em;
-    margin-left: 8em;
-    font-size: 13px;
-  }
+    .notables_menu_class {
+        font-size: 12px;
+    }
+
+    .notables-content h3 {
+        font-size: 13px;
+    }
+
+    .notables-content {
+        padding: 1em;
+        margin-left: 8em;
+        font-size: 13px;
+    }
 }
 
 /****** ---------------------- ******/
@@ -325,32 +363,33 @@ Large devices Desktops (≥1200px)
 /****** ---------------------- ******/
 
 @media screen and (max-width: 380px) {
-  #youtube-cta {
-    font-size: .7em;
-  }
+    #youtube-cta {
+        font-size: .7em;
+    }
 }
 
 @media screen and (max-width: 992px) {
-  .entry-content-press1 {
-    width: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+    .entry-content-press1 {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
-  .entry-content-press1 {
-    padding: 0 15px;
-    width: 100%;
-  }
+    .entry-content-press1 {
+        padding: 0 15px;
+        width: 100%;
+    }
 
-  .press-subhed:first-of-type {
-    margin-top: 0;
-  }
-  .press-tv-text .press-title {
-    margin-top: 6px;
-  }
+    .press-subhed:first-of-type {
+        margin-top: 0;
+    }
+
+    .press-tv-text .press-title {
+        margin-top: 6px;
+    }
 }
 
 /****** ---------------------- ******/
@@ -370,10 +409,10 @@ Large devices Desktops (≥1200px)
     }
   }*/
 @media screen and (max-width: 400px) {
-  #testimonials-badges {
-    width: 100%;
-    margin: 0;
-  }
+    #testimonials-badges {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /*  #testimonials-badges {
@@ -387,37 +426,42 @@ Large devices Desktops (≥1200px)
 /* FOOTER                           */
 /****** ---------------------- ******/
 
-@media screen and (max-width: 992px) { /* bootstrap sm */
- div#contact-footer {
-    left: 25%;
-  }
+@media screen and (max-width: 992px) {
+    /* bootstrap sm */
+    div#contact-footer {
+        left: 25%;
+    }
 }
-@media screen and (max-width: 768px) { /* bootstrap xs */
-  div#contact-footer,
-  div#social-footer {
-    font-size: .8em;
-    margin-top: 2em;
-    text-align: center;
-  }
+
+@media screen and (max-width: 768px) {
+    /* bootstrap xs */
+    div#contact-footer,
+    div#social-footer {
+        font-size: .8em;
+        margin-top: 2em;
+        text-align: center;
+    }
 }
 
 /* to override theme centering nav at this size */
 @media (max-width: 640px) {
-  .footer-nav-menu {
-    text-align: left;
-  }
+    .footer-nav-menu {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 540px) {
-  ul#menu-footer-menu {
-    display: none;
-  }
-  div#contact-footer {
-    margin-top: 0;
-  }
-  div#contact-footer,
-  div#social-footer {
-    width: 100%;
-    position: static;
-  }
+    ul#menu-footer-menu {
+        display: none;
+    }
+
+    div#contact-footer {
+        margin-top: 0;
+    }
+
+    div#contact-footer,
+    div#social-footer {
+        width: 100%;
+        position: static;
+    }
 }
