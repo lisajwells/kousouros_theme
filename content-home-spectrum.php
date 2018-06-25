@@ -1,7 +1,7 @@
 <!-- /* Most of this content is generated through Custom Fields added through Home Page edit. */ -->
 
 <!-- HOME SPECTRUM SECTION (formerly known as Home Consultation -->
-<div class="section bg-darkgray center" id="home-spectrum"><!-- home spectrum -->
+<div class="section center" id="home-spectrum"><!-- home spectrum -->
     <div class="container">
         <div class="row" id="home-spectrum-row">
 
