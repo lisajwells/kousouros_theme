@@ -1402,7 +1402,8 @@ a.testimonial-avvo-link:hover,
 
 h4 a.press-pdf,
 h4.press-print {
-    color: #14343a;
+    color: #000;
+    /*color: #14343a;*/
     text-decoration: none;
 }
 
