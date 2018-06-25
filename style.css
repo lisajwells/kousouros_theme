@@ -980,21 +980,21 @@ div#header-image {
 
 /*used to be rectangular hollow buttons*/
 .home-cta-a {
-    color: #000;
+    color: #d9ce4d;
     text-transform: uppercase;
     font-weight: 500;
     font-size: .9em;
 }
 
 .home-cta-a-white {
-    color: #fff;
+    color: #d9ce4d;
 }
 
 .home-cta-a:hover,
 .home-cta-a:focus,
 .home-cta-a:hover,
 .home-cta-a:focus {
-    color: #d9ce4d;
+    color: #000;
 }
 
 #home-press .row {
@@ -1045,9 +1045,9 @@ div#header-image {
     color: #fff;
 }
 
-#home-notable .home-cta-a-white:hover {
-    color: #d9ce4d;
-}
+/*#home-notable .home-cta-a-white:hover {*/
+    /*color: #d9ce4d;*/
+/*}*/
 
 #home-notable a.btn.btn-hollow:hover {
     color: #000;
