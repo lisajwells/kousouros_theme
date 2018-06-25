@@ -944,6 +944,11 @@ div#header-image {
 .home-spectrum h3 {
     color: #000;
 }
+
+.home-spectrum a:hover, a:focus {
+    color: #d9ce4d;
+}
+
 /*
 #home-spectrum-row div:nth-child(2n+1) h3 {
   color: #000;
