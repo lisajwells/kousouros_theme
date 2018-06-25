@@ -855,7 +855,7 @@ div#header-image {
 
 /*******************/
 
-#specializing {
+.specializing, .specializing2, .specializing2 ~ ul {
     margin-top: 1.5em;
     text-align: left;
     margin: 1.5em auto 0;
