@@ -12,9 +12,8 @@ get_header(); ?>
 <div class="section" id="home-slider">
     <div class="container" id="home-slider-container">
         <div class="row home-images">
-            <img class="home-slider-img fade-in" id="home-slider-img-1" src="<?php echo content_url(); ?>/uploads/2018/06/Courts.jpg">
-            <!-- <img class="home-slider-img fade-in" id="home-slider-img-2" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Center.jpg"> -->
-            <!-- <img class="home-slider-img fade-in" id="home-slider-img-3" src="<?php echo content_url(); ?>/uploads/2015/06/HomePage_Right.jpg"> -->
+            <img class="home-slider-img fade-in" id="home-slider-img-1"
+                 src="<?php echo content_url(); ?>/uploads/2018/06/Courts.jpg">
 
             <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
                 <p>Expert. Strategic. Criminal defense.</p>
@@ -28,7 +27,12 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="container"><p id="specializing">The Law Offices of James Kousouros is a criminal defense firm with extensive experience in all areas of criminal law, including complex criminal litigation. James Kousouros, the founder and principal of the firm, has over 30 years experience fighting, and winning, life changing battles in state and federal courtrooms in New York and throughout the country. He and his team have represented a wide range of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners.</p></div>
+    <div class="container"><p id="specializing">The Law Offices of James Kousouros is a criminal defense firm with
+            extensive experience in all areas of criminal law, including complex criminal litigation. James Kousouros,
+            the founder and principal of the firm, has over 30 years experience fighting, and winning, life changing
+            battles in state and federal courtrooms in New York and throughout the country. He and his team have
+            represented a wide range of clients, including doctors, pharmacists, CEO’s, designers, members of the
+            financial community, lawyers and business owners.</p></div>
 
 </div>
 
@@ -36,17 +40,17 @@ get_header(); ?>
     <main><!-- #main -->
 		<?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'content', 'home-testimonials' ); ?>
-            <?php get_template_part( 'content', 'home-represents' ); ?>
-            <?php get_template_part( 'content', 'home-recent' ); ?>
-            <?php get_template_part( 'content', 'home-press' ); ?>
-            <?php //get_template_part( 'content', 'home-spectrum' ); ?>
-            <?php get_template_part( 'content', 'home-notables' ); ?>
-            <?php get_template_part( 'content', 'home-profile' ); ?>
+			<?php get_template_part( 'content', 'home-testimonials' ); ?>
+			<?php get_template_part( 'content', 'home-represents' ); ?>
+			<?php get_template_part( 'content', 'home-recent' ); ?>
+			<?php get_template_part( 'content', 'home-press' ); ?>
+			<?php //get_template_part( 'content', 'home-spectrum' ); ?>
+			<?php get_template_part( 'content', 'home-notables' ); ?>
+			<?php get_template_part( 'content', 'home-profile' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
-	</main><!-- #main -->
+    </main><!-- #main -->
 </div><!-- #primary -->
 
 <?php get_footer(); ?>
