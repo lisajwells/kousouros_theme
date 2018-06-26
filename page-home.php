@@ -53,9 +53,9 @@ get_header(); ?>
     </div>
 
     <div class="container"><p class="specializing2"><strong>The Law Offices of James Kousouros provides:</strong></p>
-        <ul><li>A full service team that specializes in complex litigation and all other areas of criminal law</li>
-            <li>Over 30 years experience fighting and winning life changing battles in state and federal courts</li>
-            <li>Representation for a wide range of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners</li></ul>
+        <ul><li><strong>A full service team</strong> that specializes in complex litigation and all other areas of criminal law</li>
+            <li><strong>Over 30 years experience</strong> fighting and winning life changing battles in state and federal courts</li>
+            <li><strong>Representation for a wide range</strong> of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners</li></ul>
     </div>
 
 </div>
