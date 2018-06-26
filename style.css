@@ -113,11 +113,11 @@ form.contact-form textarea {
 }
 
 /* COLORS:
-darkmidnightblue: 14343a;
-darkblue: 8caab4;
-darkerblue: 6d93a0;
-darkgray: 7c9eaa (was 859ca7);
-yellow: d9ce4d;
+darkmidnightblue: #14343a;
+darkblue: #8caab4;
+darkerblue: #6d93a0;
+darkgray: #7c9eaa (was 859ca7);
+yellow: #d9ce4d;
 */
 /****** I changed this color in the parent css.
 Because it was all in the bootstrap css and everything and I couldn't copy every rule.
@@ -860,6 +860,10 @@ div#header-image {
     text-align: left;
     margin: 1.5em auto 0;
     max-width: 800px;
+}
+
+.specializing2 ~ ul {
+    font-weight: 300;
 }
 
 #home-testimonials-carousel i {
