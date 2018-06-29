@@ -13,7 +13,7 @@ get_header(); ?>
     <div class="container" id="home-slider-container">
         <div class="row home-images">
             <img class="home-slider-img fade-in" id="home-slider-img-1"
-                 src="<?php echo content_url(); ?>/uploads/2018/06/Courts-New-York.jpg">
+                 src="<?php echo content_url(); ?>/uploads/2018/06/Courts-NY.jpg">
             <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
                 <p>Expert. Strategic. Criminal defense.</p>
             </aside>
