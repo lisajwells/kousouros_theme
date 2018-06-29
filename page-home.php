@@ -27,9 +27,10 @@ get_header(); ?>
     </div>
 
     <div class="container">
-        <p class="specializing"><strong>The Law Offices of James Kousouros</strong> specializes in complex litigation, and all other areas of criminal law.</p>
-        <p class="specializing"><strong>For over 30 years</strong> James Kousouros, the founder and principal of the firm, has been fighting and winning life changing battles in state and federal criminal courtrooms in New York and throughout the country.</p>
-        <p class="specializing"><strong>He and his team</strong> have represented a wide range of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners.</p>
+        <p class="specializing"><strong>THE LAW OFFICES OF JAMES KOUSOUROS</strong></p>
+        <p class="specializing">A criminal defense firm that has been fighting and winning life changing battles in state and federal courtrooms in New York, and throughout the country, for over 30 years.</p>
+        <p class="specializing">A wide ranging client list that includes doctors, pharmacists, CEO’s, designers, financial professionals, lawyers, and business owners.</p>
+        <p class="specializing">A team committed to providing the highest caliber of legal representation, and to prioritizing the client’s needs.</p>
     </div>
 
 </div>
@@ -38,7 +39,6 @@ get_header(); ?>
         <div class="row home-images">
             <img class="home-slider-img fade-in" id="home-slider-img-1"
                  src="<?php echo content_url(); ?>/uploads/2018/06/New-York-Courts.jpg">
-
             <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
                 <p>Expert. Strategic. Criminal defense.</p>
             </aside>
@@ -51,10 +51,11 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="container"><p class="specializing2"><strong>The Law Offices of James Kousouros provides:</strong></p>
-        <ul><li><strong>A full service team</strong> that specializes in complex litigation and all other areas of criminal law</li>
-            <li><strong>Over 30 years experience</strong> fighting and winning life changing battles in state and federal courts</li>
-            <li><strong>Representation for a wide range</strong> of clients, including doctors, pharmacists, CEO’s, designers, members of the financial community, lawyers and business owners</li></ul>
+    <div class="container">
+        <p class="specializing2"><strong>THE LAW OFFICES OF JAMES KOUSOUROS</strong></p>
+        <p class="specializing2">A criminal defense firm that has been <strong>fighting and winning life changing battles</strong> in state and federal courtrooms in New York, and throughout the country, for over 30 years.</p>
+        <p class="specializing2">A <strong>wide ranging client list</strong> that includes doctors, pharmacists, CEO’s, designers, financial professionals, lawyers, and business owners.</p>
+        <p class="specializing2">A team committed to providing the <strong>highest caliber of legal representation,</strong> and to prioritizing the client’s needs.</p>
     </div>
 
 </div>
