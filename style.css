@@ -679,20 +679,36 @@ div#header-image {
     position : relative;
 }
 
+.home-blurbs {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    left : 0;
+    position: absolute;
+    right : 0;
+    top: 0;
+}
+
 .home-blurb {
     background     : rgba(0, 0, 0, 0.2);
     color          : #fff;
+    flex-shrink : 0;
     font-family    : 'Roboto Condensed';
     font-size      : 2em;
     font-weight    : 700;
     padding        : 6px;
-    left           : 4.5em;
-    position       : absolute;
-    right          : 4.5em;
-    text-align     : center;
+    /*left           : 4.5em;*/
+    /*position       : absolute;*/
+    /*right          : 4.5em;*/
+    /*text-align     : center;*/
     text-shadow    : 2px 2px 3px rgba(0, 0, 0, 0.5);
     text-transform : uppercase;
-    top            : calc(50% - .5em);
+    /*top            : calc(50% - .5em);*/
+    width : auto;
+    max-width: 90%;
+    text-align: center;
 }
 
 .home-blurb p {
