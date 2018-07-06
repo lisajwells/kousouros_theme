@@ -14,23 +14,34 @@ get_header(); ?>
         <div class="row home-images">
             <img class="home-slider-img fade-in" id="home-slider-img-1"
                  src="<?php echo content_url(); ?>/uploads/2018/06/New-York-Courts.jpg">
-            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-1">
-                <p>Expert. Strategic. Criminal defense.</p>
-            </aside>
-            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-2">
-                <p>Complex litigation for professionals and businesses.</p>
-            </aside>
-            <aside class="home-blurb fadeInUpOutUp" id="home-blurb-3">
-                <p>Distinguished Reputation. Excellent results.</p>
-            </aside>
+            <div class="home-blurbs">
+                <div class="home-blurb fadeInUpOutUp" id="home-blurb-1">
+                    <p>Expert. Strategic. Criminal defense.</p>
+                </div>
+            </div>
+            <div class="home-blurbs">
+                <div class="home-blurb fadeInUpOutUp" id="home-blurb-2">
+                    <p>Complex litigation for professionals and businesses.</p>
+                </div>
+            </div>
+            <div class="home-blurbs">
+                <div class="home-blurb fadeInUpOutUp" id="home-blurb-3">
+                    <p>Distinguished Reputation. Excellent results.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="container">
-        <p class="specializing2" style="font-family: 'Bank Gothic Medium'; font-size: 24px;">THE LAW OFFICES OF JAMES KOUSOUROS</p>
-        <p class="specializing2">A criminal defense firm that has been <strong>fighting and winning life changing battles</strong> in state and federal courtrooms in New York, and throughout the country, for over 30 years.</p>
-        <p class="specializing2">A <strong>wide ranging client list</strong> that includes doctors, pharmacists, CEO’s, designers, financial professionals, lawyers, and business owners.</p>
-        <p class="specializing2">A team committed to providing the <strong>highest caliber of legal representation,</strong> and to prioritizing the client’s needs.</p>
+        <p class="specializing2" style="font-family: 'Bank Gothic Medium'; font-size: 24px;">THE LAW OFFICES OF JAMES
+            KOUSOUROS</p>
+        <p class="specializing2">A criminal defense firm that has been <strong>fighting and winning life changing
+                battles</strong> in state and federal courtrooms in New York, and throughout the country, for over 30
+            years.</p>
+        <p class="specializing2">A <strong>wide ranging client list</strong> that includes doctors, pharmacists, CEO’s,
+            designers, financial professionals, lawyers, and business owners.</p>
+        <p class="specializing2">A team committed to providing the <strong>highest caliber of legal
+                representation,</strong> and to prioritizing the client’s needs.</p>
     </div>
 
 </div>
