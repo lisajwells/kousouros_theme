@@ -123,9 +123,7 @@ add_action( 'init', 'register_my_menu' );
 function klaw_scripts() {
 	/* LOAD STYLESHEETS */
 	/* google fonts */
-	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,300,300italic,400italic,500,500italic,700', array(), null, 'screen' );
-	/* google fonts in family, but not in use */
-	/* 100,100italic,700italic,900,900italic | Condensed 700italic,300italic,400italic,400,300 */
+	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,300italic,400,500,700', array(), null, 'screen' );
 
 	/* LOAD JAVASCRIPT */
 	/* jquery that makes the bootstrap video modal work */
