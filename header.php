@@ -16,6 +16,16 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <script type="text/javascript">
+        (function() {
+            var trial = document.createElement('script');
+            trial.type = 'text/javascript';
+            trial.async = true;
+            trial.src = 'https://easy.myfonts.net/v2/js?sid=99208(font-family=Bank+Gothic+Light)&sid=99209(font-family=Bank+Gothic+Medium)&key=cW00FwbQZH';
+            var head = document.getElementsByTagName("head")[0];
+            head.appendChild(trial);
+        })();
+    </script>
 <?php wp_head(); ?>
 </head>
 
