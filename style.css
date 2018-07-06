@@ -680,35 +680,29 @@ div#header-image {
 }
 
 .home-blurbs {
-    align-items: center;
-    bottom: 0;
-    display: flex;
-    flex-wrap : wrap;
-    justify-content: center;
-    left : 0;
-    position: absolute;
-    right : 0;
-    top: 0;
+    align-items     : center;
+    bottom          : 0;
+    display         : flex;
+    justify-content : center;
+    left            : 0;
+    position        : absolute;
+    right           : 0;
+    top             : 0;
 }
 
 .home-blurb {
     background     : rgba(0, 0, 0, 0.2);
     color          : #fff;
-    flex-shrink : 0;
+    flex-shrink    : 0;
     font-family    : 'Roboto Condensed';
-    font-size      : 2em;
+    font-size      : 32px;
     font-weight    : 700;
     padding        : 6px;
-    /*left           : 4.5em;*/
-    /*position       : absolute;*/
-    /*right          : 4.5em;*/
-    /*text-align     : center;*/
     text-shadow    : 2px 2px 3px rgba(0, 0, 0, 0.5);
     text-transform : uppercase;
-    /*top            : calc(50% - .5em);*/
-    width : auto;
-    max-width: 90%;
-    text-align: center;
+    width          : auto;
+    max-width      : 90%;
+    text-align     : center;
 }
 
 .home-blurb p {
@@ -720,14 +714,14 @@ div#header-image {
 @media screen and (max-width : 992px) {
     /* bootstrap sm */
     .home-blurb {
-        font-size : 1.5em;
+        font-size : 24px;
     }
 }
 
 @media screen and (max-width : 768px) {
     /* bootstrap xs */
     .home-blurb {
-        font-size : 1em;
+        font-size : 20px;
     }
 }
 
@@ -1249,8 +1243,8 @@ p.process1 strong {
 }
 
 .notables-content h4 {
-    color : #d9ce4d;
-    font-weight: 700;
+    color       : #d9ce4d;
+    font-weight : 700;
 }
 
 .notables-title {
@@ -1275,9 +1269,9 @@ p.process1 strong {
 }
 
 div.explanation {
-    font-style: italic;
+    font-style : italic;
     /*font-weight : 400;*/
-    margin-top  : 2em;
+    margin-top : 2em;
 }
 
 /* if it's at the top of the column (there's an empty h3 before explanation)
