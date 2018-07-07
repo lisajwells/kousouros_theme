@@ -33,12 +33,15 @@ get_header(); ?>
         </div>
 
         <div class="container">
-            <p class="specializing2" style="font-family: 'Bank Gothic Medium'; font-size: 24px;">THE LAW OFFICES OF JAMES
+            <p class="specializing2" style="font-family: 'Bank Gothic Medium'; font-size: 24px;">THE LAW OFFICES OF
+                JAMES
                 KOUSOUROS</p>
             <p class="specializing2">A criminal defense firm that has been <strong>fighting and winning life changing
-                    battles</strong> in state and federal courtrooms in New York, and throughout the country, for over 30
+                    battles</strong> in state and federal courtrooms in New York, and throughout the country, for over
+                30
                 years.</p>
-            <p class="specializing2">A <strong>wide ranging client list</strong> that includes doctors, pharmacists, CEO’s,
+            <p class="specializing2">A <strong>wide ranging client list</strong> that includes doctors, pharmacists,
+                CEO’s,
                 designers, financial professionals, lawyers, and business owners.</p>
             <p class="specializing2">A team committed to providing the <strong>highest caliber of legal
                     representation,</strong> and to prioritizing the client’s needs.</p>
