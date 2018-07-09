@@ -680,36 +680,36 @@ div#header-image {
 }
 
 .home-blurbs {
-    -webkit-box-align     : center;
-    -ms-flex-align     : center;
-    align-items     : center;
-    bottom          : 0;
-    display         : -webkit-box;
-    display         : -ms-flexbox;
-    display         : flex;
-    -webkit-box-pack : center;
-    -ms-flex-pack : center;
-    justify-content : center;
-    left            : 0;
-    position        : absolute;
-    right           : 0;
-    top             : 0;
+    -webkit-box-align : center;
+    -ms-flex-align    : center;
+    align-items       : center;
+    bottom            : 0;
+    display           : -webkit-box;
+    display           : -ms-flexbox;
+    display           : flex;
+    -webkit-box-pack  : center;
+    -ms-flex-pack     : center;
+    justify-content   : center;
+    left              : 0;
+    position          : absolute;
+    right             : 0;
+    top               : 0;
 }
 
 .home-blurb {
-    background     : rgba(0, 0, 0, 0.2);
-    color          : #fff;
-    -ms-flex-negative    : 0;
-    flex-shrink    : 0;
-    font-family    : 'Roboto Condensed';
-    font-size      : 32px;
-    font-weight    : 700;
-    padding        : 6px 9px 6px 12px;
-    text-shadow    : 2px 2px 3px rgba(0, 0, 0, 0.5);
-    text-transform : uppercase;
-    width          : auto;
-    max-width      : 90%;
-    text-align     : center;
+    background        : rgba(0, 0, 0, 0.2);
+    color             : #fff;
+    -ms-flex-negative : 0;
+    flex-shrink       : 0;
+    font-family       : 'Roboto Condensed';
+    font-size         : 32px;
+    font-weight       : 700;
+    padding           : 6px 9px 6px 12px;
+    text-shadow       : 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-transform    : uppercase;
+    width             : auto;
+    max-width         : 90%;
+    text-align        : center;
 }
 
 .home-blurb p {
@@ -1016,7 +1016,7 @@ div#header-image {
     display         : -webkit-box;
     display         : -ms-flexbox;
     display         : flex;
-    -ms-flex-pack : distribute;
+    -ms-flex-pack   : distribute;
     justify-content : space-around;
 }
 
@@ -1104,15 +1104,15 @@ div#header-image {
 }
 
 #home-logos {
-    display         : -webkit-box;
-    display         : -ms-flexbox;
-    display         : flex;
-    -webkit-box-pack : center;
-    -ms-flex-pack : center;
-    justify-content : center;
-    -webkit-box-align     : start;
-    -ms-flex-align     : start;
-    align-items     : flex-start;
+    display           : -webkit-box;
+    display           : -ms-flexbox;
+    display           : flex;
+    -webkit-box-pack  : center;
+    -ms-flex-pack     : center;
+    justify-content   : center;
+    -webkit-box-align : start;
+    -ms-flex-align    : start;
+    align-items       : flex-start;
 }
 
 #home-logos a {
@@ -1556,18 +1556,18 @@ blockquote.testimonial-entry strong {
 }
 
 .row.testimonial-badges {
-    display         : -webkit-box;
-    display         : -ms-flexbox;
-    display         : flex;
-    -ms-flex-pack : distribute;
-    justify-content : space-around;
-    -ms-flex-line-pack   : center;
-    align-content   : center;
+    display            : -webkit-box;
+    display            : -ms-flexbox;
+    display            : flex;
+    -ms-flex-pack      : distribute;
+    justify-content    : space-around;
+    -ms-flex-line-pack : center;
+    align-content      : center;
 }
 
 div.testimonial-badge {
     -ms-flex-preferred-size : 50%;
-    flex-basis : 50%;
+    flex-basis              : 50%;
 }
 
 div.testimonial-badge img {
