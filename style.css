@@ -680,9 +680,15 @@ div#header-image {
 }
 
 .home-blurbs {
+    -webkit-box-align     : center;
+    -ms-flex-align     : center;
     align-items     : center;
     bottom          : 0;
+    display         : -webkit-box;
+    display         : -ms-flexbox;
     display         : flex;
+    -webkit-box-pack : center;
+    -ms-flex-pack : center;
     justify-content : center;
     left            : 0;
     position        : absolute;
@@ -693,6 +699,7 @@ div#header-image {
 .home-blurb {
     background     : rgba(0, 0, 0, 0.2);
     color          : #fff;
+    -ms-flex-negative    : 0;
     flex-shrink    : 0;
     font-family    : 'Roboto Condensed';
     font-size      : 32px;
@@ -833,7 +840,7 @@ div#header-image {
     margin-bottom : 22px;
 }
 
-.specializing, .specializing2 {
+.specializing {
     font-size   : 18px;
     font-weight : 300;
     line-height : 1.3em;
@@ -842,11 +849,11 @@ div#header-image {
     text-align  : center;
 }
 
-.specializing2 {
+.specializing {
     margin-bottom : .8em;
 }
 
-.specializing:after, .specializing2:first-of-type:after {
+.specializing:after, .specializing:first-of-type:after {
     border-bottom : 1px solid #000;
     width         : 120px;
     display       : block;
@@ -1006,8 +1013,10 @@ div#header-image {
 }
 
 #home-press .row {
-    /*align-items: center;*/
+    display         : -webkit-box;
+    display         : -ms-flexbox;
     display         : flex;
+    -ms-flex-pack : distribute;
     justify-content : space-around;
 }
 
@@ -1095,10 +1104,15 @@ div#header-image {
 }
 
 #home-logos {
+    display         : -webkit-box;
+    display         : -ms-flexbox;
     display         : flex;
+    -webkit-box-pack : center;
+    -ms-flex-pack : center;
     justify-content : center;
+    -webkit-box-align     : start;
+    -ms-flex-align     : start;
     align-items     : flex-start;
-    /*flex-wrap: wrap;*/
 }
 
 #home-logos a {
@@ -1542,12 +1556,17 @@ blockquote.testimonial-entry strong {
 }
 
 .row.testimonial-badges {
+    display         : -webkit-box;
+    display         : -ms-flexbox;
     display         : flex;
+    -ms-flex-pack : distribute;
     justify-content : space-around;
+    -ms-flex-line-pack   : center;
     align-content   : center;
 }
 
 div.testimonial-badge {
+    -ms-flex-preferred-size : 50%;
     flex-basis : 50%;
 }
 
