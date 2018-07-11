@@ -840,25 +840,25 @@ div#header-image {
     margin-bottom : 22px;
 }
 
-.specializing {
+.specializing, .specializing-hed {
     font-size   : 18px;
     font-weight : 300;
     line-height : 1.3em;
-    margin      : 0 auto;
+    margin      : 0 auto .8em;
     max-width   : 800px;
     text-align  : center;
 }
 
-.specializing {
-    margin-bottom : .8em;
-}
+/*.specializing, .specializing-hed {*/
+    /*margin-bottom : .8em;*/
+/*}*/
 
-.specializing:after, .specializing:first-of-type:after {
+.specializing:after, .specializing-hed:after {
     border-bottom : 1px solid #000;
-    width         : 120px;
-    display       : block;
     content       : "";
+    display       : block;
     margin        : 18px auto;
+    width         : 120px;
 }
 
 .specializing:last-of-type:after {
