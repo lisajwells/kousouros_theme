@@ -36,15 +36,9 @@ get_header(); ?>
             <p class="specializing-hed" style="font-family: 'BankGothicBT-Medium'; font-size: 24px;">THE LAW OFFICES OF
                 JAMES
                 KOUSOUROS</p>
-            <p class="specializing">A criminal defense firm that has been fighting and winning life changing
-                    battles in state and federal courtrooms in New York, and throughout the country, for over
-                30
-                years.</p>
-            <p class="specializing">A wide ranging client list that includes doctors, pharmacists,
-                CEO’s,
-                designers, financial professionals, lawyers, and business owners.</p>
-            <p class="specializing">A team committed to providing the highest caliber of legal
-                    representation, and to prioritizing the client’s needs.</p>
+            <p class="specializing">For over 30 years we’ve been fighting and winning life changing battles in state and federal criminal courtrooms in New York and throughout the country.</p>
+            <p class="specializing">While we handle all types of criminal cases, we specialize in white collar prosecutions and serve a wide ranging clientele - including doctors, pharmacists, CEO’s, designers, financial professionals, lawyers, and business owners.</p>
+            <p class="specializing">Our team provides excellent legal representation as well as a personalized level of service that prioritizes our clients needs.</p>
         </div>
 
     </div>
