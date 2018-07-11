@@ -854,7 +854,7 @@ div#header-image {
     font-size   : 24px;
 }
 
-.specializing:after, .specializing-hed:after {
+.specializing-hed:after {
     border-bottom : 1px solid #000;
     content       : "";
     display       : block;
@@ -862,9 +862,9 @@ div#header-image {
     width         : 120px;
 }
 
-.specializing:last-of-type:after {
-    border-bottom : none;
-}
+/*.specializing2:last-of-type:after {*/
+    /*border-bottom : none;*/
+/*}*/
 
 #home-testimonials-carousel i {
     font-size  : 112px;
