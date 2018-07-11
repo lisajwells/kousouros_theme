@@ -849,9 +849,10 @@ div#header-image {
     text-align  : center;
 }
 
-/*.specializing, .specializing-hed {*/
-    /*margin-bottom : .8em;*/
-/*}*/
+.specializing-hed {
+    font-family : 'BankGothicBT-Medium';
+    font-size   : 24px;
+}
 
 .specializing:after, .specializing-hed:after {
     border-bottom : 1px solid #000;
