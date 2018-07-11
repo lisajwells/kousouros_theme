@@ -124,6 +124,8 @@ function klaw_scripts() {
 	/* LOAD STYLESHEETS */
 	/* google fonts */
 	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,300italic,400,500,700', array(), null, 'screen' );
+	wp_enqueue_style( 'klaw-local-fonts', get_stylesheet_directory_uri() . "/fonts/MFBankGothicMedium/KLAW_bankgothic.css", false );
+
 
 	/* LOAD JAVASCRIPT */
 	/* jquery that makes the bootstrap video modal work */

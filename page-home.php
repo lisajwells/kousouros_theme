@@ -33,7 +33,7 @@ get_header(); ?>
         </div>
 
         <div class="container">
-            <p class="specializing-hed" style="font-family: 'Bank Gothic Medium'; font-size: 24px;">THE LAW OFFICES OF
+            <p class="specializing-hed" style="font-family: 'BankGothicBT-Medium'; font-size: 24px;">THE LAW OFFICES OF
                 JAMES
                 KOUSOUROS</p>
             <p class="specializing">A criminal defense firm that has been fighting and winning life changing
