@@ -84,10 +84,10 @@ $xsbf_theme_options = array(
 ///// including child theme template-tags
 include( get_stylesheet_directory() . '/inc/template-tags.php' );
 
-///// setting 1-day cookie if it's not present
+///// setting 8-hour cookie if it's not present
 function newday_cookie() {
 	if ( ! isset( $_COOKIE['kousouroslaw'] ) ) {
-		setcookie( 'kousouroslaw', 'jklaw_cookie', time() + 3600 * 24 );
+		setcookie( 'kousouroslaw', 'jklaw_cookie', time() + 3600 * 8 );
 
 		return true;
 	} else {
