@@ -127,7 +127,7 @@ function klaw_scripts() {
 	if ( is_front_page() ) {
 		wp_enqueue_style( 'klaw-bankgothic', get_stylesheet_directory_uri() . "/fonts/MFBankGothicMedium/KLAW_bankgothic.css", false );
 	}
-
+	wp_enqueue_style( 'klaw-zapf', get_stylesheet_directory_uri() . "/fonts/zapf/stylesheet.css", false );
 
 	/* LOAD JAVASCRIPT */
 	/* jquery that makes the bootstrap video modal work */
