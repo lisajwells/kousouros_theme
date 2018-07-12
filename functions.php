@@ -124,7 +124,9 @@ function klaw_scripts() {
 	/* LOAD STYLESHEETS */
 	/* google fonts */
 	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,300italic,400,500,700', array(), null, 'screen' );
-	wp_enqueue_style( 'klaw-local-fonts', get_stylesheet_directory_uri() . "/fonts/MFBankGothicMedium/KLAW_bankgothic.css", false );
+	if ( is_front_page() ) {
+		wp_enqueue_style( 'klaw-bankgothic', get_stylesheet_directory_uri() . "/fonts/MFBankGothicMedium/KLAW_bankgothic.css", false );
+	}
 
 
 	/* LOAD JAVASCRIPT */
