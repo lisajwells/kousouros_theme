@@ -57,7 +57,7 @@
 	$site_credits = sprintf( __( '&copy; %1$s %2$s. Theme by %3$s.', 'flat-bootstrap' ),
 		date ( 'Y' ),
 		'<a href="' . esc_url( home_url( '/' ) ) . '" rel="home">' . get_bloginfo( 'name' ) . '</a>',
-		'<a href="' . $theme->get( 'ThemeURI' ) . '" rel="profile" target="_blank">' . $theme->get( 'Author' ) . '</a>'
+		'<a href="' . $theme->get( 'ThemeURI' ) . '" rel="profile">' . $theme->get( 'Author' ) . '</a>'
 	);
 	$site_credits = apply_filters( 'xsbf_credits', $site_credits );
  	?>
@@ -88,17 +88,17 @@
 					<div id="social-footer" class="col-md-4 col-sm-4 col-xs-4">
 						<p id="social-links">
 							<div class="social-icon">
-								<a target="_blank" href="https://www.facebook.com/kousouroslawoffice?fref=ts">
+								<a href="https://www.facebook.com/kousouroslawoffice?fref=ts">
 									<span class="white-icon-bg"></span><i class="fa fa-facebook-square"></i>
 								</a>&nbsp;
 							</div>
 							<div class="social-icon">
-								<a target="_blank" href="https://www.linkedin.com/pub/james-kousouros/29/72/a66">
+								<a href="https://www.linkedin.com/pub/james-kousouros/29/72/a66">
 									<span class="white-icon-bg"></span><i class="fa fa-linkedin-square"></i>
 								</a>&nbsp;
 							</div>
 							<div class="social-icon" id="youtube-icon-dv">
-								<a target="_blank" href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ">
+								<a href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ">
 									<span class="white-icon-bg"></span><i class="fa fa-youtube-play"></i>
 								</a>
 							</div>
@@ -106,7 +106,7 @@
 
 
 						<p>&copy; <?php echo date ( 'Y' ); ?>. All Rights Reserved.</p>
-						<p id="linaweb">Site designed by <a href="http://donnaagajanian.dphoto.com/" target="_blank">Donna Agajanian</a> with <a href="https://barkingdogweb.com" target="_blank">Lisa Wells,</a> developer</p>
+						<p id="linaweb">Site designed by <a href="http://donnaagajanian.dphoto.com/">Donna Agajanian</a> with <a href="https://barkingdogweb.com">Lisa Wells,</a> developer</p>
 						<p>Attorney advertising. Prior results do not guarantee a similar outcome.</p>
 					</div><!-- social-footer -->
 
