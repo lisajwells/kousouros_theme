@@ -61,10 +61,10 @@ get_header(); ?>
 
                                 <div class="row testimonial-badges">
                                     <div class="testimonial-badge" id="testimonial_avvo_badge">
-                                            <a rel="me" target="_blank" href="https://www.avvo.com/attorneys/10016-ny-james-kousouros-868249.html?cm_mmc=Avvo-_-Avvo_Badge-_-Micro-_-868249"><img alt="Avvo - Rate your Lawyer. Get Free Legal Advice." src="https://www.avvo.com/assets/microbadge.png" /></a>
+                                            <a rel="me" href="https://www.avvo.com/attorneys/10016-ny-james-kousouros-868249.html?cm_mmc=Avvo-_-Avvo_Badge-_-Micro-_-868249"><img alt="Avvo - Rate your Lawyer. Get Free Legal Advice." src="https://www.avvo.com/assets/microbadge.png" /></a>
                                     </div><!-- testimonial_avvo_badge -->
                                     <div class="testimonial-badge" id="testimonial_mh_badge">
-                                            <a rel="me" target="_blank" href="http://www.martindale.com/James-Kousouros/429638-lawyer.htm?view=cr"><img src="<?php echo content_url(); ?>/uploads/2015/06/HomePageMHIcon200.png"></a>
+                                            <a rel="me" href="http://www.martindale.com/James-Kousouros/429638-lawyer.htm?view=cr"><img src="<?php echo content_url(); ?>/uploads/2015/06/HomePageMHIcon200.png"></a>
                                     </div><!-- testimonial_mh_badge -->
                                 </div><!-- row -->
 
