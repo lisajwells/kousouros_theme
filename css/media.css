@@ -22,10 +22,6 @@ Large devices Desktops (≥1200px)
     #services-quotes-carousel {
         margin-top : 2em;
     }
-    #home-logos {
-        -ms-flex-wrap : wrap;
-        flex-wrap     : wrap;
-    }
 
 }
 
@@ -52,6 +48,28 @@ Large devices Desktops (≥1200px)
         margin-top : 2em;
     }
 
+    #home-logos-1, #home-logos-2 {
+        margin : 0 4em;
+    }
+
+    #home-logos-2 {
+        -ms-flex-wrap : wrap;
+        flex-wrap     : wrap;
+    }
+
+    #home-logos-1 a, #home-logos-2 a {
+        flex-basis  : 23%;
+        text-align  : center;
+        margin      : 0 1em;
+        flex-grow   : 0;
+        flex-shrink : 0;
+    }
+
+    #home-logos-1 a.two-wide {
+        flex-basis : 46%;
+    }
+
+
 }
 
 @media screen and (max-width : 500px) {
@@ -73,30 +91,28 @@ Large devices Desktops (≥1200px)
     }
 
     #home-logos-1, #home-logos-2 {
-        margin-right: 2em;
-        margin-left: 2em;
+        margin : 1em;
     }
+
     #home-logos-1 a, #home-logos-2 a {
-        margin: .5em;
+        /*flex-basis: 20%;*/
+        margin : 0 0.5em -1em;
     }
 
-    #home-logos-2 a {
-        max-height: 70px;
-    }
-
-    /*#home-logos {*/
-    /*    -ms-flex-wrap : wrap;*/
-    /*    flex-wrap     : wrap;*/
+    /*#home-logos-2 a {*/
+    /*    margin-bottom: -2em;*/
+    /*    flex-basis: 20%;*/
     /*}*/
-
 }
 
 @media screen and (max-width : 400px) {
-
     #home-logos-2 {
-        margin-bottom: -2em;
+        margin-bottom : 0;
     }
 
+    #home-logos-2 a {
+        margin-bottom : -2em;
+    }
 
 }
 

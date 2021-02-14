@@ -31,7 +31,8 @@
                        href="https://www.avvo.com/attorneys/10016-ny-james-kousouros-868249.html?utm_campaign=avvo_rating&utm_content=868249&utm_medium=avvo_badge&utm_source=avvo"><img
                                 id="home-av-img" src="<?php echo content_url(); ?>/uploads/2015/06/Avvo2.png"></a>
 
-                    <a rel="me" href="http://www.martindale.com/James-Kousouros/429638-lawyer.htm?view=cr"><img
+                    <a rel="me" class="two-wide"
+                       href="http://www.martindale.com/James-Kousouros/429638-lawyer.htm?view=cr"><img
                                 src="<?php echo content_url(); ?>/uploads/2015/06/HomePageMHIcon200.png"></a>
 
                     <a rel="me" href="http://www.thenationaltriallawyers.org/profile-view/James/Kousouros/12261/"><img
@@ -55,6 +56,10 @@
                     </a>
                     <a rel="me" href="http://www.distinguishedcounsel.org/">
                         <iframe src="//www.distinguishedcounsel.org/badges/james-kousouros/34666/2020/" height="100"
+                                width="100" frameBorder="0" scrolling="no"></iframe>
+                    </a>
+                    <a rel="me" href="http://www.distinguishedcounsel.org/">
+                        <iframe src="//www.distinguishedcounsel.org/badges/james-kousouros/34666/2021/" height="100"
                                 width="100" frameBorder="0" scrolling="no"></iframe>
                     </a>
 
