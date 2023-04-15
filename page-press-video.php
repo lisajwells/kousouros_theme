@@ -23,7 +23,7 @@ get_header(); ?>
 
 					<div class="row">
 						<div class="col-md-12 press-subhed">
-							<p class="intro-graph">Criminal defense lawyer James Kousouros has been sought after by leading network and cable news outlets for his commentary on trending legal matters.</p>
+							<p class="intro-graph">Leading network and cable news outlets turn to criminal defense lawyer James Kousouros for his commentary on trending legal matters.</p>
 						</div>
 					</div><!-- row -->
 
