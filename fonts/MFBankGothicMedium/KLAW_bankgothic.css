@@ -1,0 +1,29 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3609254, 2018-07-11T15:02:14-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BankGothicBT-Medium by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/bank-gothic/medium/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3609254
+ * 
+ * © 2018 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3712a6");
+
+@font-face {
+    font-family : 'BankGothicBT-Medium';
+    src         : url('3712A6_0_0.eot');
+    src         : url('3712A6_0_0.eot?#iefix') format('embedded-opentype'), url('3712A6_0_0.woff2') format('woff2'), url('3712A6_0_0.woff') format('woff'), url('3712A6_0_0.ttf') format('truetype');
+}
+ 

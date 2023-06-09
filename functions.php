@@ -26,16 +26,16 @@
  * background_color - Hex code for default background color without the #. eg) ffffff
  *
  * content_width - Only for determining "full width" image. Actual width in Bootstrap.css
- * 		is 1170 for screens over 1200px resolution, otherwise 970.
+ *        is 1170 for screens over 1200px resolution, otherwise 970.
  *
  * embed_video_width - Sets the maximum width of videos that use the <embed> tag. The
- * 		default is 1170 to handle full-width page templates. If you will ALWAYS display
- * 		the sidebar, can set to 600 for better performance.
+ *        default is 1170 to handle full-width page templates. If you will ALWAYS display
+ *        the sidebar, can set to 600 for better performance.
  *
  * embed_video_height - Leave empty to automatically set at a 16:9 ratio to the width
  *
  * post_formats - Array of WordPress extra post formats. i.e. aside, image, video, quote,
- * 		and/or link
+ *        and/or link
  *
  * touch_support - Whether to load touch support for carousels (sliders)
  *
@@ -46,8 +46,8 @@
  * navbar_classes - One or more of navbar-default, navbar-inverse, navbar-fixed-top, etc.
  *
  * custom_header_location - If 'header', displays the custom header above the navbar. If
- * 		'content-header', displays it below the navbar in place of the colored content-
- *		header section.
+ *        'content-header', displays it below the navbar in place of the colored content-
+ *        header section.
  *
  * image_keyboard_nav - Whether to load javascript for using the keyboard to navigate image attachment pages
  *
@@ -74,44 +74,47 @@ $xsbf_theme_options = array(
 	//'image_keyboard_nav' 		=> true,
 	//'sample_widgets' 			=> true, // for possible future use
 	//'sample_footer_menu'		=> true,
-	'testimonials'			=> false
+	'testimonials' => false
 );
 
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
+@ini_set( 'upload_max_size', '64M' );
+@ini_set( 'post_max_size', '64M' );
 @ini_set( 'max_execution_time', '300' );
 
 ///// including child theme template-tags
 include( get_stylesheet_directory() . '/inc/template-tags.php' );
 
-///// setting 1-day cookie if it's not present
+///// setting 8-hour cookie if it's not present
 function newday_cookie() {
-	if ( !isset($_COOKIE['kousouroslaw'])) {
-		setcookie('kousouroslaw', 'jklaw_cookie', time()+3600*24);
+	if ( ! isset( $_COOKIE['kousouroslaw'] ) ) {
+		setcookie( 'kousouroslaw', 'jklaw_cookie', time() + 3600 * 8 );
+
 		return true;
 	} else {
 		return false;
 	}
 }
 
-add_action( 'init', 'newday_cookie');
+add_action( 'init', 'newday_cookie' );
 
 /////* Getting php to show up in the sidebar text widgets *//
-add_filter('widget_text','execute_php',100);
-function execute_php($html){
-     if(strpos($html,"<"."?php")!==false){
-          ob_start();
-          eval("?".">".$html);
-          $html=ob_get_contents();
-          ob_end_clean();
-     }
-     return $html;
+add_filter( 'widget_text', 'execute_php', 100 );
+function execute_php( $html ) {
+	if ( strpos( $html, "<" . "?php" ) !== false ) {
+		ob_start();
+		eval( "?" . ">" . $html );
+		$html = ob_get_contents();
+		ob_end_clean();
+	}
+
+	return $html;
 }
 
 // add notables menu
 function register_my_menu() {
-  register_nav_menu('notables-menu',__( 'Notables Menu' ));
+	register_nav_menu( 'notables-menu', __( 'Notables Menu' ) );
 }
+
 add_action( 'init', 'register_my_menu' );
 
 
@@ -120,9 +123,13 @@ add_action( 'init', 'register_my_menu' );
 function klaw_scripts() {
 	/* LOAD STYLESHEETS */
 	/* google fonts */
-	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700italic,700|Roboto:400,300,300italic,400italic,500,500italic,700,700italic',array(), null, 'screen' );
-	/* google fonts in family, but not in use */
-	/* 100,100italic,,900,900italic | Condensed 300italic,400italic,400,300 */
+	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,300italic,400,500,700', array(), null, 'screen' );
+	if ( is_front_page() ) {
+		wp_enqueue_style( 'klaw-bankgothic', get_stylesheet_directory_uri() . "/fonts/MFBankGothicMedium/KLAW_bankgothic.css", false );
+	}
+	if ( is_page( 'testimonials' )) {
+		wp_enqueue_style( 'klaw-zapf', get_stylesheet_directory_uri() . "/fonts/zapf/stylesheet.css", false );
+	}
 
 	/* LOAD JAVASCRIPT */
 	/* jquery that makes the bootstrap video modal work */
@@ -137,13 +144,20 @@ function klaw_scripts() {
 	/* avvo badge changing to static image instead of js */
 	// wp_enqueue_script( 'avvo_badge_script', 'http://www.avvo.com/assets/badges-v2.js', array(), '1.0.0', true );
 }
+
 add_action( 'wp_enqueue_scripts', 'klaw_scripts' );
 
 // enqueuing this one separately so that i can use the priority 99 to make media.css load last
 function media_scripts() {
 	/* media queries style */
-	wp_enqueue_style( 'klaw_media', get_stylesheet_directory_uri() . '/css/media.css', array( 'bootstrap', 'theme-base', 'theme-flat', 'font-awesome' ) );
+	wp_enqueue_style( 'klaw_media', get_stylesheet_directory_uri() . '/css/media.css', array(
+		'bootstrap',
+		'theme-base',
+		'theme-flat',
+		'font-awesome'
+	) );
 }
+
 add_action( 'wp_enqueue_scripts', 'media_scripts', 99 );
 
 /*
@@ -153,38 +167,43 @@ add_action( 'wp_enqueue_scripts', 'media_scripts', 99 );
  * You can hard-code whatever you want in here, but its better to have this function pull
  * the current year and site name and URL as shown below.
  */
-add_filter('xsbf_credits', 'xsbf_child_credits');
-function xsbf_child_credits ( $site_credits ) {
+add_filter( 'xsbf_credits', 'xsbf_child_credits' );
+function xsbf_child_credits( $site_credits ) {
 
-	$theme = wp_get_theme();
+	$theme        = wp_get_theme();
 	$site_credits = sprintf( __( '&copy; %1$s %2$s', 'xtremelysocial' ),
-		date ( 'Y' ),
+		date( 'Y' ),
 		'<a href="' . esc_url( home_url( '/' ) ) . '" rel="home">' . get_bloginfo( 'name' ) . '</a>'
 	);
+
 	return $site_credits;
 }
 
 /** This came from codex: in_category
  * Tests if any of a post's assigned categories are descendants of target categories
- * Used in flat-bootstrap-child-theme template tags to direct links from search results to page instead of to single post
+ * Used in flat-bootstrap-child-theme template tags to direct links from search results to page instead of to single
+ * post
  *
- * @param int|array $cats The target categories. Integer ID or array of integer IDs
+ * @param int|array  $cats  The target categories. Integer ID or array of integer IDs
  * @param int|object $_post The post. Omit to test the current post in the Loop or main query
+ *
  * @return bool True if at least 1 of the post's categories is a descendant of any of the target categories
- * @see get_term_by() You can get a category by name or slug, then pass ID to this function
- * @uses get_term_children() Passes $cats
- * @uses in_category() Passes $_post (can be empty)
+ * @see     get_term_by() You can get a category by name or slug, then pass ID to this function
+ * @uses    get_term_children() Passes $cats
+ * @uses    in_category() Passes $_post (can be empty)
  * @version 2.7
- * @link http://codex.wordpress.org/Function_Reference/in_category#Testing_if_a_post_is_in_a_descendant_category
+ * @link    http://codex.wordpress.org/Function_Reference/in_category#Testing_if_a_post_is_in_a_descendant_category
  */
 if ( ! function_exists( 'post_is_in_descendant_category' ) ) {
 	function post_is_in_descendant_category( $cats ) {
 		foreach ( (array) $cats as $cat ) {
 			// get_term_children() accepts integer ID only
 			$descendants = get_term_children( (int) $cat, 'category' );
-			if ( $descendants && in_category( $descendants ) )
+			if ( $descendants && in_category( $descendants ) ) {
 				return true;
+			}
 		}
+
 		return false;
 	}
 }
@@ -212,17 +231,19 @@ if ( ! function_exists( 'post_is_in_descendant_category' ) ) {
 //-------
 
 // remove tooltips from navigation
-function my_menu_notitle( $menu ){
-  return $menu = preg_replace('/ title=\"(.*?)\"/', '', $menu );
+function my_menu_notitle( $menu ) {
+	return $menu = preg_replace( '/ title=\"(.*?)\"/', '', $menu );
 
 }
+
 add_filter( 'wp_nav_menu', 'my_menu_notitle' );
 add_filter( 'wp_page_menu', 'my_menu_notitle' );
 add_filter( 'wp_list_categories', 'my_menu_notitle' );
 
 //Remove a function from the parent theme that causes gap on notables page
-function remove_parent_filter(){ //Have to do it after theme setup, because child theme functions are loaded first
-   remove_filter( 'the_content', 'xsbf_add_container', 5, 1 );
-   remove_filter( 'the_content', 'xsbf_end_container', 1999, 1 );
+function remove_parent_filter() { //Have to do it after theme setup, because child theme functions are loaded first
+	remove_filter( 'the_content', 'xsbf_add_container', 5, 1 );
+	remove_filter( 'the_content', 'xsbf_end_container', 1999, 1 );
 }
+
 add_action( 'after_setup_theme', 'remove_parent_filter' );

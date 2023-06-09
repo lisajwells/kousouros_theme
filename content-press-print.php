@@ -1,13 +1,15 @@
 <?php if( get_field( 'external_link') ): ?>
-	<h4 class="press-title press-print"><a target="_blank" class="press-pdf" href="<?php the_field('external_link'); ?>"><?php the_title(); ?></a></h4>
+	<h4 class="press-title press-print"><a class="press-pdf" href="<?php the_field('external_link'); ?>"><?php the_title(); ?></a></h4>
 <?php else: ?>
 	<h4 class="press-title press-print"><?php the_title(); ?></h4>
 <?php endif; ?>
 
 <?php if( get_field( 'publication') ): ?>
-    <p class="press-publication"><?php the_field('publication'); ?></p>
+    <p class="press-publication"><?php the_field('publication'); ?>
+        <?php if( get_field( 'download_pdf_file_url') ): ?>
+            <a class="press-pdf press-print" href="<?php the_field('download_pdf_file_url'); ?>">Download PDF</a>
+        <?php endif; ?>
+
+    </p>
 <?php endif; ?>
 
-<?php if( get_field( 'download_pdf_file_url') ): ?>
-    <a target="_blank"  class="press-pdf press-print" href="<?php the_field('download_pdf_file_url'); ?>">Download PDF</a>
-<?php endif; ?>

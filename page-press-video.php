@@ -19,11 +19,11 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 	        	<!-- add id of page id and class of .press_loop -->
-				<article id="post-<?php the_ID(); ?>" <?php post_class( 'press_loop' ); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class( 'press_loop' ); ?>>
 
 					<div class="row">
 						<div class="col-md-12 press-subhed">
-							<p class="intro-graph">Criminal defense lawyer James Kousouros has been sought after by leading network and cable news outlets for his commentary on trending legal matters.</p>
+							<p class="intro-graph">Leading network and cable news outlets turn to criminal defense lawyer James Kousouros for his commentary on trending legal matters.</p>
 						</div>
 					</div><!-- row -->
 
@@ -70,8 +70,8 @@ get_header(); ?>
 
 	            			<!-- link to youtube channel -->
 	            			<div id="youtube-cta">
-								<a target="_blank" href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ"><i class="fa fa-youtube-play"></i></a>
-								<p class="press-title"><a href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ" target="_blank">Visit Mr. Kousouros’ YouTube channel for<br> additional news coverage</a></p>
+								<a href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ"><i class="fa fa-youtube-play"></i></a>
+								<p class="press-title"><a href="https://www.youtube.com/channel/UCf0p1mIGTRomb7qsA9648oQ">Visit Mr. Kousouros’ YouTube channel for<br> additional news coverage</a></p>
 	            			</div>
 
 						</div><!-- .entry-content-press3 -->
